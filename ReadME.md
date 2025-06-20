@@ -63,6 +63,13 @@ C:\Users\user\Desktop\AI CUP資源\Train_sigle_model_deberta>
 python .\ASR_code\Whisper_Validation.py
 ```
 
+執行完成後，將會產生以下兩個檔案於 `ASR_code/text/`：
+
+- `Whisper_Validation_Timestamps.json`
+- `Whisper_Validation.txt` ← 這就是 Task 1 的輸出結果
+
+---
+
 ### 方法二：Faster Whisper
 
 請確認當前路徑為：
@@ -102,6 +109,14 @@ C:\Users\user\Desktop\AI CUP資源\Train_sigle_model_deberta>
 python .\chatgpt\chatgpt_new_prompt.py
 ```
 
+推理結果將會儲存在：
+
+```
+validation/GPT.txt
+```
+
+這個 `GPT.txt` 檔案即為 Task 2 的最終結果。
+
 ### 方法二：使用 DeBERTa-v3-base 模型進行 Fine-tuning
 
 確認當前路徑為：
@@ -140,3 +155,9 @@ validation/inference_output.txt
 ```
 
 這個 `inference_output.txt` 檔案即為 Task 2 的最終結果。
+##
+第一階段選擇faster-whisper，第二階段選擇deberta-v3-base分數如下
+- `0.16/0.45`
+
+第一階段選擇faster-whisper，第二階段選擇Openai-API呼叫分數如下
+- `0.16/0.54`
