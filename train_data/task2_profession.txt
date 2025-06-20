@@ -1,0 +1,9 @@
+2777	PROFESSION	chiropractor
+2777	PROFESSION	chiropractor
+24198	PROFESSION	Archbishop
+25961	PROFESSION	selling pottery
+25961	PROFESSION	potter
+29342	PROFESSION	trick cyclist
+29342	PROFESSION	trick cyclist
+29790	PROFESSION	manager
+31398   PROFESSION	president of the country county

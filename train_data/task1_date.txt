@@ -1,0 +1,200 @@
+10000	Data collection will end on February 14, after which analysis will begin.
+10001	All prescriptions should be renewed by tomorrow to avoid any disruption in care.
+10002	Data collection will end on January 15, after which analysis will begin.
+10003	The official discharge process begins on Last week, assuming all conditions are stable.
+10004	On May 10, a comprehensive diagnostic session will be held to reassess treatment goals.
+10005	By March 25, 2021, we expect measurable improvements in motor function based on current therapy.
+10006	The surgery is tentatively scheduled for August 15, pending final approval from the surgical team.
+10007	All records from before April 10 will be archived under the new protocol.
+10008	December 10 is the deadline for submitting insurance documentation.
+10009	Team members should submit their reports before January 15 to prepare for the upcoming evaluation.
+10010	Tests conducted on April 10 revealed important updates regarding the patient's condition.
+10011	The surgery is tentatively scheduled for January 30, pending final approval from the surgical team.
+10012	All records from before February 1 will be archived under the new protocol.
+10013	The scheduled appointment on October 30 marks a key checkpoint in the treatment cycle.
+10014	November 11 is critical for completing lab work required for the next procedure.
+10015	The follow-up session has been confirmed for April 23, and reminders have been sent to all involved parties.
+10016	The official discharge process begins on October 30, assuming all conditions are stable.
+10017	Tests conducted on September 5 revealed important updates regarding the patient's condition.
+10018	October 15, 2021 is critical for completing lab work required for the next procedure.
+10019	May 25 is the deadline for submitting insurance documentation.
+10020	The surgery is tentatively scheduled for November 30, pending final approval from the surgical team.
+10021	The surgery is tentatively scheduled for November 11, pending final approval from the surgical team.
+10022	The surgery is tentatively scheduled for December 25, pending final approval from the surgical team.
+10023	All prescriptions should be renewed by July 4 to avoid any disruption in care.
+10024	Team members should submit their reports before January 1 to prepare for the upcoming evaluation.
+10025	The official discharge process begins on today, assuming all conditions are stable.
+10026	November 30 has been selected as the starting date for the next treatment phase.
+10027	Team members should submit their reports before January 1 to prepare for the upcoming evaluation.
+10028	May 10 was initially missed but has now been rescheduled with priority.
+10029	June 20 is critical for completing lab work required for the next procedure.
+10030	Team members should submit their reports before June 20 to prepare for the upcoming evaluation.
+10031	All records from before March 15 will be archived under the new protocol.
+10032	All prescriptions should be renewed by June 1, 2022 to avoid any disruption in care.
+10033	The surgery is tentatively scheduled for September 15, pending final approval from the surgical team.
+10034	January 1 is critical for completing lab work required for the next procedure.
+10035	The surgery is tentatively scheduled for August 22, pending final approval from the surgical team.
+10036	All records from before March 15 will be archived under the new protocol.
+10037	The care plan will be updated after the consultation on September 5.
+10038	On November 11, a comprehensive diagnostic session will be held to reassess treatment goals.
+10039	The scheduled appointment on August 22 marks a key checkpoint in the treatment cycle.
+10040	All prescriptions should be renewed by December 25 to avoid any disruption in care.
+10041	All records from before February 14 will be archived under the new protocol.
+10042	The official discharge process begins on this week, assuming all conditions are stable.
+10043	Patient progress will be reviewed thoroughly during the meeting on October 30.
+10044	Medication adjustments will be evaluated on April 1 depending on blood test results.
+10045	December 1 has been selected as the starting date for the next treatment phase.
+10046	All prescriptions should be renewed by October 15 to avoid any disruption in care.
+10047	Post-operative assessments are due on September 15.
+10048	January 30 is critical for completing lab work required for the next procedure.
+10049	On tomorrow, a comprehensive diagnostic session will be held to reassess treatment goals.
+10050	Team members should submit their reports before February 28 to prepare for the upcoming evaluation.
+10051	All records from before November 30 will be archived under the new protocol.
+10052	Medication adjustments will be evaluated on December 1 depending on blood test results.
+10053	The scheduled appointment on January 15 marks a key checkpoint in the treatment cycle.
+10054	All records from before today will be archived under the new protocol.
+10055	September 1 was initially missed but has now been rescheduled with priority.
+10056	Team members should submit their reports before October 1 to prepare for the upcoming evaluation.
+10057	The surgery is tentatively scheduled for October 15, pending final approval from the surgical team.
+10058	February 14 was initially missed but has now been rescheduled with priority.
+10059	The official discharge process begins on November 11, assuming all conditions are stable.
+10060	All records from before November 30 will be archived under the new protocol.
+10061	Patient progress will be reviewed thoroughly during the meeting on March 1.
+10062	Team members should submit their reports before December 25 to prepare for the upcoming evaluation.
+10063	The follow-up session has been confirmed for today, and reminders have been sent to all involved parties.
+10064	Post-operative assessments are due on March 25, 2021.
+10065	March 1 is the deadline for submitting insurance documentation.
+10066	The follow-up session has been confirmed for November 1, and reminders have been sent to all involved parties.
+10067	August 1 has been selected as the starting date for the next treatment phase.
+10068	All prescriptions should be renewed by January 1, 2022 to avoid any disruption in care.
+10069	Please arrive early on Last week for pre-op clearance and final checks.
+10070	All prescriptions should be renewed by April 10 to avoid any disruption in care.
+10071	Data collection will end on May 10, after which analysis will begin.
+10072	By June 1, 2022, we expect measurable improvements in motor function based on current therapy.
+10073	Patient progress will be reviewed thoroughly during the meeting on now.
+10074	Patient progress will be reviewed thoroughly during the meeting on November 1.
+10075	All prescriptions should be renewed by July 1 to avoid any disruption in care.
+10076	March 25, 2021 was initially missed but has now been rescheduled with priority.
+10077	By September 11, we expect measurable improvements in motor function based on current therapy.
+10078	The care plan will be updated after the consultation on October 15.
+10079	The follow-up session has been confirmed for March 30, and reminders have been sent to all involved parties.
+10080	The scheduled appointment on November 11 marks a key checkpoint in the treatment cycle.
+10081	September 5 has been selected as the starting date for the next treatment phase.
+10082	All prescriptions should be renewed by September 11 to avoid any disruption in care.
+10083	The scheduled appointment on May 25 marks a key checkpoint in the treatment cycle.
+10084	The scheduled appointment on January 15 marks a key checkpoint in the treatment cycle.
+10085	Data collection will end on this week, after which analysis will begin.
+10086	The official discharge process begins on April 1, assuming all conditions are stable.
+10087	October 15, 2021 was initially missed but has now been rescheduled with priority.
+10088	On April 23, a comprehensive diagnostic session will be held to reassess treatment goals.
+10089	April 23, 2025 is critical for completing lab work required for the next procedure.
+10090	Tests conducted on September 15 revealed important updates regarding the patient's condition.
+10091	Team members should submit their reports before today to prepare for the upcoming evaluation.
+10092	On December 1, a comprehensive diagnostic session will be held to reassess treatment goals.
+10093	On August 22, a comprehensive diagnostic session will be held to reassess treatment goals.
+10094	Post-operative assessments are due on April 23, 2025.
+10095	June 1 has been selected as the starting date for the next treatment phase.
+10096	April 1 has been selected as the starting date for the next treatment phase.
+10097	The scheduled appointment on June 5 marks a key checkpoint in the treatment cycle.
+10098	All prescriptions should be renewed by this week to avoid any disruption in care.
+10099	All records from before tomorrow will be archived under the new protocol.
+10100	The surgery is tentatively scheduled for December 25, pending final approval from the surgical team.
+10101	On this week, a comprehensive diagnostic session will be held to reassess treatment goals.
+10102	The follow-up session has been confirmed for November 11, and reminders have been sent to all involved parties.
+10103	The follow-up session has been confirmed for May 10, 2024, and reminders have been sent to all involved parties.
+10104	The follow-up session has been confirmed for February 28, and reminders have been sent to all involved parties.
+10105	All prescriptions should be renewed by August 1 to avoid any disruption in care.
+10106	Medication adjustments will be evaluated on November 11 depending on blood test results.
+10107	June 5 is critical for completing lab work required for the next procedure.
+10108	Tests conducted on January 15 revealed important updates regarding the patient's condition.
+10109	Team members should submit their reports before March 1 to prepare for the upcoming evaluation.
+10110	By January 30, we expect measurable improvements in motor function based on current therapy.
+10111	today was initially missed but has now been rescheduled with priority.
+10112	March 1 was initially missed but has now been rescheduled with priority.
+10113	By June 5, we expect measurable improvements in motor function based on current therapy.
+10114	Medication adjustments will be evaluated on May 10 depending on blood test results.
+10115	The official discharge process begins on October 15, 2021, assuming all conditions are stable.
+10116	Tests conducted on November 1 revealed important updates regarding the patient's condition.
+10117	December 1 is the deadline for submitting insurance documentation.
+10118	Data collection will end on August 15, after which analysis will begin.
+10119	The surgery is tentatively scheduled for December 10, pending final approval from the surgical team.
+10120	The scheduled appointment on October 30 marks a key checkpoint in the treatment cycle.
+10121	All prescriptions should be renewed by September 15 to avoid any disruption in care.
+10122	Patient progress will be reviewed thoroughly during the meeting on April 10.
+10123	May 10 has been selected as the starting date for the next treatment phase.
+10124	All prescriptions should be renewed by July 10 to avoid any disruption in care.
+10125	Team members should submit their reports before January 1 to prepare for the upcoming evaluation.
+10126	All records from before January 1, 2022 will be archived under the new protocol.
+10127	Post-operative assessments are due on October 30.
+10128	December 10 has been selected as the starting date for the next treatment phase.
+10129	December 1 was initially missed but has now been rescheduled with priority.
+10130	All records from before September 1 will be archived under the new protocol.
+10131	Patient progress will be reviewed thoroughly during the meeting on June 1, 2022.
+10132	The surgery is tentatively scheduled for August 15, pending final approval from the surgical team.
+10133	The scheduled appointment on May 1 marks a key checkpoint in the treatment cycle.
+10134	Data collection will end on August 22, after which analysis will begin.
+10135	Please arrive early on June 5 for pre-op clearance and final checks.
+10136	The follow-up session has been confirmed for April 10, and reminders have been sent to all involved parties.
+10137	The official discharge process begins on September 1, assuming all conditions are stable.
+10138	Data collection will end on January 15, after which analysis will begin.
+10139	The surgery is tentatively scheduled for September 11, pending final approval from the surgical team.
+10140	Post-operative assessments are due on December 1.
+10141	Team members should submit their reports before April 23, 2025 to prepare for the upcoming evaluation.
+10142	On October 15, 2021, a comprehensive diagnostic session will be held to reassess treatment goals.
+10143	The follow-up session has been confirmed for October 30, and reminders have been sent to all involved parties.
+10144	Post-operative assessments are due on April 10.
+10145	All records from before April 23, 2025 will be archived under the new protocol.
+10146	Medication adjustments will be evaluated on December 1 depending on blood test results.
+10147	The official discharge process begins on November 30, assuming all conditions are stable.
+10148	On this week, a comprehensive diagnostic session will be held to reassess treatment goals.
+10149	July 10 was initially missed but has now been rescheduled with priority.
+10150	The surgery is tentatively scheduled for May 10, pending final approval from the surgical team.
+10151	The care plan will be updated after the consultation on September 15.
+10152	Tests conducted on February 14 revealed important updates regarding the patient's condition.
+10153	The surgery is tentatively scheduled for January 1, pending final approval from the surgical team.
+10154	Data collection will end on May 10, 2024, after which analysis will begin.
+10155	The care plan will be updated after the consultation on May 1.
+10156	All prescriptions should be renewed by August 15 to avoid any disruption in care.
+10157	Tests conducted on December 10 revealed important updates regarding the patient's condition.
+10158	All records from before March 15 will be archived under the new protocol.
+10159	All prescriptions should be renewed by September 1 to avoid any disruption in care.
+10160	Medication adjustments will be evaluated on August 22 depending on blood test results.
+10161	Medication adjustments will be evaluated on March 25, 2021 depending on blood test results.
+10162	Medication adjustments will be evaluated on March 1 depending on blood test results.
+10163	September 1 is the deadline for submitting insurance documentation.
+10164	August 22 was initially missed but has now been rescheduled with priority.
+10165	The scheduled appointment on February 1 marks a key checkpoint in the treatment cycle.
+10166	November 1 has been selected as the starting date for the next treatment phase.
+10167	October 1 was initially missed but has now been rescheduled with priority.
+10168	The official discharge process begins on this week, assuming all conditions are stable.
+10169	September 5 is critical for completing lab work required for the next procedure.
+10170	The official discharge process begins on May 10, 2024, assuming all conditions are stable.
+10171	Tests conducted on January 15 revealed important updates regarding the patient's condition.
+10172	August 15 was initially missed but has now been rescheduled with priority.
+10173	All records from before April 10 will be archived under the new protocol.
+10174	this week is the deadline for submitting insurance documentation.
+10175	Data collection will end on today, after which analysis will begin.
+10176	The follow-up session has been confirmed for July 4, and reminders have been sent to all involved parties.
+10177	The follow-up session has been confirmed for March 1, and reminders have been sent to all involved parties.
+10178	The official discharge process begins on September 1, assuming all conditions are stable.
+10179	Data collection will end on January 30, after which analysis will begin.
+10180	Patient progress will be reviewed thoroughly during the meeting on August 22.
+10181	June 20 is the deadline for submitting insurance documentation.
+10182	The follow-up session has been confirmed for September 15, and reminders have been sent to all involved parties.
+10183	January 30 is critical for completing lab work required for the next procedure.
+10184	Medication adjustments will be evaluated on September 15 depending on blood test results.
+10185	The care plan will be updated after the consultation on November 1.
+10186	All prescriptions should be renewed by November 30 to avoid any disruption in care.
+10187	The surgery is tentatively scheduled for September 15, pending final approval from the surgical team.
+10188	January 1 is critical for completing lab work required for the next procedure.
+10189	Patient progress will be reviewed thoroughly during the meeting on August 22.
+10190	The scheduled appointment on September 5 marks a key checkpoint in the treatment cycle.
+10191	Data collection will end on October 15, 2021, after which analysis will begin.
+10192	November 11 is the deadline for submitting insurance documentation.
+10193	The follow-up session has been confirmed for June 1, and reminders have been sent to all involved parties.
+10194	Data collection will end on December 25, after which analysis will begin.
+10195	Team members should submit their reports before September 15 to prepare for the upcoming evaluation.
+10196	Post-operative assessments are due on February 1.
+10197	The scheduled appointment on January 15 marks a key checkpoint in the treatment cycle.
+10198	Medication adjustments will be evaluated on May 1 depending on blood test results.
+10199	Tests conducted on July 4 revealed important updates regarding the patient's condition.

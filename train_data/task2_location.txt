@@ -1,0 +1,338 @@
+3217	LOCATION-OTHER	Mystic
+24198	LOCATION-OTHER	Canterbury
+24444	LOCATION-OTHER	Andover
+24462	STREET	Victor Street
+24691	STATE	Ohio
+25790	CITY	Chicago
+25790	CITY	Chicago
+25790	LOCATION-OTHER	Montana
+25790	LOCATION-OTHER	Chicago metro area
+25874	STATE	Rhode Island
+28426	COUNTY	Cheshire
+29203	STATE	California
+29977	STREET	London
+30159	DISTRICT	Greenwich
+31247	CITY	Denver
+32232	CITY	Shresthire
+32232	COUNTY	Cheshire
+50017	DEPARTMENT	Darling Point
+50017	HOSPITAL	Gippsland Southern Health Service - Leongatha Campus
+50035	CITY	Camden Haven
+50035	STATE	Northern Territory
+50035	STREET	Blue Cow Street
+50040	CITY	Kyabram, Victoria
+50040	DEPARTMENT	West Department  Nambour
+50040	HOSPITAL	Nambour General Hospital
+50040	STATE	Victoria, postal
+50040	STREET	Monetary Street
+50063	DEPARTMENT	4 Jabiru Place
+50063	HOSPITAL	East Wimmera Health Service – Wycheproof
+50063	STATE	Northern Territory
+50072	CITY	Devonport
+50072	STATE	Victoria
+50072	STREET	Walburgh Street
+50123	DEPARTMENT	Tissue Pathology  Diagnostic Oncology Department
+50123	HOSPITAL	West Coast District Hospital
+50132	DEPARTMENT	West department  Morawa
+50132	HOSPITAL	Morawa Hospital
+50144	CITY	Nambucca Heads
+50144	STATE	Western Australia
+50144	STREET	 Stratford House
+50149	CITY	Kiama
+50149	DEPARTMENT	Dickinson 3 South Department.
+50149	HOSPITAL	Injune Hospital.
+50149	STATE	South Australia
+50149	STREET	Cabban Street
+50153	DEPARTMENT	Anatomical Department
+50153	HOSPITAL	Fitzroy Crossing Hospital
+50216	CITY	Mount Eliza
+50216	STREET	Hewins Street
+50311	DEPARTMENT	2.23-hour stay surgical unit
+50311	HOSPITAL	 Corrigin Hospital.
+50381	CITY	Bowen
+50381	STATE	Western Australia
+50381	STREET	Rocky Spring, Bowen
+50404	CITY	Bonny Hills
+50404	DEPARTMENT	 3HR Stay Surgical Unit
+50404	STATE	ACT
+50404	STREET	Tandera Street  Bonny
+50453	DEPARTMENT	Parkes 9 East Department
+50453	HOSPITAL	Eidsvold Multipurpose Health Service
+50454	CITY	Port Adelaide Enfield
+50454	STATE	TAS
+50454	STREET	Rossi
+50455	DEPARTMENT	Anatomical Pathology Department
+50455	HOSPITAL	Omeo District Health
+50543	CITY	Orbost
+50543	DEPARTMENT	department  Peter Mac.
+50543	HOSPITAL	Kangaroo Island Health Service
+50543	LOCATION-OTHER	P.O. Box 15
+50543	STATE	Orbost, VIC
+50576	DEPARTMENT	Radiation Oncology Department
+50576	HOSPITAL	 Royal Darwin Hospital
+50592	DEPARTMENT	St. George Private
+50592	HOSPITAL	Hunter New England Mental Health Service.
+50592	STATE	Northern Territory
+50592	STREET	Prairie Hill
+50592	STREET	Devonport
+50610	DEPARTMENT	Pathology West
+50618	CITY	Nambucca Heads
+50618	STATE	NT
+50618	STREET	Cantello
+50628	DEPARTMENT	St George Private Department
+50628	HOSPITAL	Bellingen River District Hospital
+50631	CITY	Northam
+50631	HOSPITAL	Roma Hospital
+50631	STATE	Tasmania
+50631	STREET	Legend Manor Street
+50632	HOSPITAL	Beyond Milton Ulladulla Hospital
+50632	HOSPITAL	Gulargambone Multi-Purpose Service
+50673	CITY	Tenterfield
+50673	DEPARTMENT	Acute Care Ward
+50673	HOSPITAL	Port Pirie Hospital
+50673	STATE	Tenterfield
+50673	STREET	Boat Street
+50680	HOSPITAL	 Maryborough District Health Service Dunolly
+50706	CITY	Stirling
+50706	STATE	New South Wales
+50706	STREET	Hamstrom
+50728	DEPARTMENT	SEALS Central
+50728	HOSPITAL	within St Helens District Hospital
+50789	CITY	Armidale
+50789	STATE	Victoria
+50789	STREET	Vincents
+50837	CITY	Caboolture
+50837	DEPARTMENT	Medic/Surgery Ward
+50837	HOSPITAL	Tresillian Family Care Centre – Belmore
+50837	STATE	VIC
+50837	STREET	Pugh Street
+50838	CITY	Cobar
+50838	DEPARTMENT	3/9 Jennie Cox Close
+50838	STATE	South Australia
+50838	STREET	Auld Street
+50887	HOSPITAL	Bulahdelah Community Hospital
+50916	CITY	Penguin
+50916	STATE	QLD
+50916	STREET	Upper Mount Glen Lake
+50955	HOSPITAL	Pensis  Maroondah Hospital
+50973	DEPARTMENT	Parkes8
+51017	DEPARTMENT	St Vincent Department
+51017	HOSPITAL	Kerang District Health
+51023	HOSPITAL	Biggenden Multipurpose Health Service
+51023	HOSPITAL	 North West Regional Hospital
+51041	CITY	Coonabarabran
+51041	STATE	Northern Territory
+51041	STREET	N Cumnor
+51043	CITY	Urraween
+51043	STATE	New South Wales
+51043	STREET	Shupin Street
+51051	CITY	Line, Moura
+51051	STATE	Australian Capital Territory, 6910
+51051	STREET	Main Line
+51057	CITY	Kyabram
+51057	STATE	WA
+51057	STREET	Sewickley Street
+51067	HOSPITAL	Hesse Rural Health Service
+51067	HOSPITAL	Sarina Hospital
+51081	HOSPITAL	Kaleeeya Hospital
+51081	HOSPITAL	Queanbeyan District Hospital
+51094	CITY	Barwon Heads
+51094	DEPARTMENT	Pathology  further
+51094	STATE	Western Australia
+51094	STREET	Sandering Street
+51131	CITY	Banora Point, South
+51131	STATE	South Australia
+51131	STREET	Goswell Street
+51185	CITY	Goondiwindi
+51185	STATE	Western Australia
+51185	STREET	Cernan Street
+51201	HOSPITAL	Gippsland Southern Health Service, Leongatha Campus
+51310	CITY	Goolwa
+51310	STATE	WA
+51310	STREET	Fort Foote
+51480	CITY	Smithton
+51480	STATE	South Australia
+51480	STREET	Sea Chase Street
+51487	DEPARTMENT	Prince  Wales Private Department
+51487	HOSPITAL	Charleville Hospital
+51496	HOSPITAL	 Baralaba Hospital.
+51514	HOSPITAL	Ipswich Hospital
+51562	CITY	Gold Coast
+51562	STATE	WA, with
+51562	STREET	Capertee
+51739	CITY	Howlong
+51739	DEPARTMENT	SEALS Central
+51739	STATE	Victoria
+51739	STREET	Fawkham
+51759	CITY	Beaconsfield Upper
+51759	STATE	Northern Territory
+51759	STREET	Burntside Street
+51766	CITY	Batemans Bay
+51766	STREET	 North Columbine Street
+51767	CITY	Yamba
+51767	STREET	Talbryn
+51771	CITY	Casino
+51771	STATE	New South Wales
+51771	STREET	Lovelace Street
+51794	DEPARTMENT	Hunter Area Department
+51794	DEPARTMENT	 Intensive Care Unit
+51794	HOSPITAL	Mossman Hospital (Douglas Shire Multi Purpose Health Service)
+51817	CITY	Richmond
+51817	STATE	Australian Capital Territory
+51817	STREET	Richland Valley
+51832	DEPARTMENT	SydPath Department
+51832	HOSPITAL	Tingha Multipurpose Service
+51842	DEPARTMENT	Medic/Surgery Ward
+51842	HOSPITAL	West Wimmera Health Service  Kaniva.
+51867	DEPARTMENT	St. Vincent Department
+51867	HOSPITAL	Forensic Hospital
+51931	HOSPITAL	Rockingham General Hospital.
+51984	DEPARTMENT	 SEALS Central
+51984	HOSPITAL	Redland Hospital
+51987	DEPARTMENT	SydPath Department
+51987	HOSPITAL	Wallaroo Hospital.
+52015	CITY	Glenview, Newcastle
+52015	STATE	Northern Territory
+52015	STREET	Glenview
+52018	CITY	Wauchope
+52018	STATE	Tasmania
+52018	STREET	Lower Matchaponix
+52124	DEPARTMENT	SEALS central department
+52124	HOSPITAL	Ballarat Health Services (Base Hospital)
+52124	STATE	Victoria
+52124	STREET	Platt House Street
+52172	DEPARTMENT	Dickinson 3 North
+52172	HOSPITAL	Port Pirie Hospital
+52175	DEPARTMENT	Peter Mac
+52182	CITY	Gosford
+52182	STATE	NT
+52182	STREET	 Stone Mill Street
+52279	DEPARTMENT	 Pathwest
+52279	HOSPITAL	War Memorial Hospital, under
+52311	DEPARTMENT	Parkes 9 East department.
+52329	HOSPITAL	Springwood Hospital
+52338	DEPARTMENT	 Hunter Area Pathology Department
+52338	HOSPITAL	Cloncurry Multi-Purpose Health Service
+52356	CITY	Bega
+52356	DEPARTMENT	Hunter Area Pathology
+52356	HOSPITAL	Coonabarabran District Hospital.
+52356	STATE	VIC
+52356	STREET	Westporter Street
+52372	CITY	Thirlmere
+52372	STATE	TAS, 5273
+52372	STREET	Bramston Street
+52379	CITY	Leestone
+52379	STATE	Leeton
+52379	STREET	Leestone
+52451	CITY	Goolwa
+52451	STREET	N Kaspar Street
+52479	CITY	Newcastle
+52479	STATE	WA
+52479	STREET	Midge Hall
+52481	DEPARTMENT	Douglass Hanly Moir
+52481	HOSPITAL	Tasman Multi-Purpose Centre.
+52488	CITY	Waterford
+52488	STATE	Australian Capital Territory
+52488	STREET	Armand Street
+52538	DEPARTMENT	CPC Pathology
+52538	HOSPITAL	Angliss Hospital.
+52540	DEPARTMENT	Laverty Department
+52564	CITY	Orbost, Tasmania
+52564	STATE	Tasmania
+52564	STREET	East Olivera Street
+52579	DEPARTMENT	Darling Point Department
+52579	HOSPITAL	Midlands Multi- Purpose Health Centre
+52579	HOSPITAL	Wimmera Health Care Group - Horsham
+52591	CITY	Vincentia
+52591	HOSPITAL	West Wimmera Health Service - Kaniva
+52591	STATE	New South Wales
+52591	STREET	New Jefferson
+52620	CITY	Moranbah
+52620	DEPARTMENT	Anatomical Pathology department.
+52620	HOSPITAL	Mater Mother Hospital
+52620	STATE	Western Australia
+52620	STREET	Juniper Point
+52754	HOSPITAL	Wentworth District Hospital
+52814	CITY	Rockhampton
+52814	DEPARTMENT	Urology Day Only Department
+52814	HOSPITAL	Calvary Public Hospital ACT.
+52814	STATE	South Australia
+52814	STREET	Upper Montagu Street
+52905	DEPARTMENT	09:20   Obstetrics Department
+52905	HOSPITAL	 Western District Health Service – Penshurst.
+52933	DEPARTMENT	Pathology West
+52933	HOSPITAL	The Sutherland Hospital.
+52966	DEPARTMENT	 Pathwest-The
+52966	HOSPITAL	Forensic Hospital by
+53000	CITY	 Camden Haven
+53000	STREET	Pleasant Chase
+53017	DEPARTMENT	Envoi
+53072	DEPARTMENT	Coronary Care Unit
+53072	HOSPITAL	Tottenham Hospital
+53072	HOSPITAL	Birrunga Brad Omland
+53075	CITY	Wauchope
+53075	DEPARTMENT	Day Surgery Unit
+53075	HOSPITAL	Hesse Rural Health Service
+53075	STATE	TAS,  Kamena
+53075	STREET	Street
+53103	DEPARTMENT	L7 Consulting Rooms
+53103	HOSPITAL	Karitane Hospital under
+53138	DEPARTMENT	Recovery Department
+53138	HOSPITAL	Balaklava Hospital.
+53157	CITY	Millicent
+53157	STATE	TAS
+53157	STREET	Daley, Millicent
+53184	DEPARTMENT	Envoi Pathology.
+53184	HOSPITAL	Exmouth Hospital
+53190	CITY	Howlong, Western
+53190	STATE	Western Australia
+53190	STREET	Sylmar
+53229	HOSPITAL	Longreach Hospital
+53238	CITY	Buninyong
+53238	STATE	NT
+53238	STREET	Belcourt
+53255	CITY	Tinonee
+53255	DEPARTMENT	SYDPATH Department
+53255	HOSPITAL	Ayr Hospital
+53255	STREET	Northome
+53294	CITY	Wokindon
+53294	STATE	Denman
+53294	STREET	 Wokindon
+53352	DEPARTMENT	8 Goolagong Crescent
+53352	DEPARTMENT	Renal Clinic
+53352	DEPARTMENT	South Western Area
+53352	HOSPITAL	Timboon & District Healthcare Service
+53363	CITY	Aldgate
+53363	STATE	Tasmania
+53363	STREET	Manolete Street
+53364	CITY	Lismore
+53364	STATE	New South Wales
+53364	STREET	Strenger Street
+53400	HOSPITAL	Cherbourg Hospital Cancer Centre
+53400	STATE	Northern Territory
+53402	DEPARTMENT	collected  Dickinson 3 North
+53402	HOSPITAL	Brewarrina Multi-Purpose Service
+53411	DEPARTMENT	PaLMS department
+53415	CITY	Williamstown
+53415	STATE	NT
+53415	STREET	West Railroad, Williamstown
+53430	HOSPITAL	Shoalhaven
+53445	DEPARTMENT	Macquarie Ward
+53445	HOSPITAL	Cobar District Hospital
+53457	DEPARTMENT	Envoi Specialist department
+53466	DEPARTMENT	Ward  Lake Grace Hospital
+53466	HOSPITAL	attending physician
+53489	DEPARTMENT	St. Vincent Pathology Department
+53495	DEPARTMENT	Lowy Pathology
+53495	STATE	QLD
+53509	CITY	Roxby Downs
+53509	STATE	SA, with
+53509	STREET	Haan Street
+53515	CITY	Leongatha
+53515	STATE	ACT
+53515	STREET	Brindabella Street
+53530	CITY	Legra
+53530	STATE	Moranbah, TAS
+53530	STREET	Legra
+53546	DEPARTMENT	PaLMS department
+53546	HOSPITAL    Margaret River Hospital

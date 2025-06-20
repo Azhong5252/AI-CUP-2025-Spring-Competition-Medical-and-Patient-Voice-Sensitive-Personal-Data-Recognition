@@ -1,0 +1,500 @@
+40000	The zip code 1483 is known for fast delivery services.
+40001	We only serve customers in zip code 3231.
+40002	The package was delivered to zip code 8805 without any delay.
+40003	The package was delivered to zip code 7559 without any delay.
+40004	Can you provide the postal code for 9496?
+40005	We only serve customers in zip code 8630.
+40006	We only serve customers in zip code 9257.
+40007	Your postal code 1305 is not within our service area.
+40008	Residents in zip code 9911 have reported mail issues.
+40009	We only serve customers in zip code 8202.
+40010	All deliveries in that district go through zip code 2374.
+40011	We only serve customers in zip code 1227.
+40012	Please verify the postal code 9193, it seems incorrect.
+40013	Postal code 3557 falls under a restricted delivery zone.
+40014	Please verify the postal code 4824, it seems incorrect.
+40015	Please verify the postal code 5846, it seems incorrect.
+40016	We only serve customers in zip code 8815.
+40017	Check again, postal code for that place is 7453.
+40018	There’s a distribution center near zip code 6657.
+40019	His current address uses the zip code 8216.
+40020	The package was delivered to zip code 5466 without any delay.
+40021	They registered the business at postal code 3836.
+40022	Check again, postal code for that place is 9573.
+40023	Residents in zip code 7863 have reported mail issues.
+40024	Residents in zip code 1435 have reported mail issues.
+40025	The zip code 8013 is known for fast delivery services.
+40026	We only serve customers in zip code 9563.
+40027	Postal code 1768 falls under a restricted delivery zone.
+40028	His current address uses the zip code 5570.
+40029	They registered the business at postal code 9438.
+40030	The package was delivered to zip code 4930 without any delay.
+40031	The package was delivered to zip code 4003 without any delay.
+40032	Is postal code 7008 part of the urban zone?
+40033	Postal code 8403 falls under a restricted delivery zone.
+40034	The zip code 6682 is known for fast delivery services.
+40035	His current address uses the zip code 2161.
+40036	Please verify the postal code 5179, it seems incorrect.
+40037	Can you provide the postal code for 3096?
+40038	Please verify the postal code 8654, it seems incorrect.
+40039	We only serve customers in zip code 9008.
+40040	They registered the business at postal code 4844.
+40041	His current address uses the zip code 4070.
+40042	She recently moved to a new area with postal code 4336.
+40043	There’s a distribution center near zip code 8416.
+40044	Check again, postal code for that place is 3444.
+40045	Is postal code 3172 part of the urban zone?
+40046	His current address uses the zip code 2729.
+40047	She recently moved to a new area with postal code 7916.
+40048	Is postal code 9247 part of the urban zone?
+40049	He’s been living in postal code 3983 for a decade now.
+40050	Your postal code 6972 is not within our service area.
+40051	Have you updated your address to postal code 1275?
+40052	Can you provide the postal code for 3597?
+40053	Check again, postal code for that place is 4832.
+40054	Postal code 4894 falls under a restricted delivery zone.
+40055	Can you provide the postal code for 5701?
+40056	We only serve customers in zip code 3408.
+40057	He’s been living in postal code 7437 for a decade now.
+40058	The zip code 5878 is known for fast delivery services.
+40059	Make sure the shipping label shows zip code 7179.
+40060	Can you provide the postal code for 4308?
+40061	Can you provide the postal code for 3371?
+40062	I think the postal code for that building is 4848.
+40063	Have you updated your address to postal code 9962?
+40064	They registered the business at postal code 1309.
+40065	There’s a distribution center near zip code 8164.
+40066	Check again, postal code for that place is 6824.
+40067	His current address uses the zip code 3227.
+40068	There’s a distribution center near zip code 3345.
+40069	The package was delivered to zip code 3942 without any delay.
+40070	Postal code 9108 falls under a restricted delivery zone.
+40071	The package was delivered to zip code 3195 without any delay.
+40072	Please verify the postal code 9599, it seems incorrect.
+40073	Make sure the shipping label shows zip code 3515.
+40074	She recently moved to a new area with postal code 8782.
+40075	She recently moved to a new area with postal code 6031.
+40076	He’s been living in postal code 4785 for a decade now.
+40077	Your postal code 5516 is not within our service area.
+40078	All deliveries in that district go through zip code 3352.
+40079	Please verify the postal code 3444, it seems incorrect.
+40080	Postal code 7327 falls under a restricted delivery zone.
+40081	He’s been living in postal code 7566 for a decade now.
+40082	Postal code 6141 falls under a restricted delivery zone.
+40083	His current address uses the zip code 1334.
+40084	All deliveries in that district go through zip code 9733.
+40085	The zip code 7045 is known for fast delivery services.
+40086	Check again, postal code for that place is 5097.
+40087	Please verify the postal code 2943, it seems incorrect.
+40088	Have you updated your address to postal code 5338?
+40089	They registered the business at postal code 8284.
+40090	Postal code 1954 falls under a restricted delivery zone.
+40091	Residents in zip code 9637 have reported mail issues.
+40092	The package was delivered to zip code 8782 without any delay.
+40093	His current address uses the zip code 4272.
+40094	I think the postal code for that building is 6648.
+40095	Check again, postal code for that place is 5855.
+40096	You wrote the wrong postal code – it should be 6789.
+40097	Can you provide the postal code for 4260?
+40098	Have you updated your address to postal code 4260?
+40099	There’s a distribution center near zip code 7733.
+40100	He’s been living in postal code 2707 for a decade now.
+40101	His current address uses the zip code 8487.
+40102	His current address uses the zip code 7012.
+40103	Check again, postal code for that place is 1438.
+40104	All deliveries in that district go through zip code 8832.
+40105	Residents in zip code 8271 have reported mail issues.
+40106	We only serve customers in zip code 5341.
+40107	Check again, postal code for that place is 9727.
+40108	All deliveries in that district go through zip code 7075.
+40109	The package was delivered to zip code 9871 without any delay.
+40110	Is postal code 1153 part of the urban zone?
+40111	They registered the business at postal code 5714.
+40112	Residents in zip code 6891 have reported mail issues.
+40113	She recently moved to a new area with postal code 3820.
+40114	His current address uses the zip code 6145.
+40115	He’s been living in postal code 1324 for a decade now.
+40116	Can you provide the postal code for 1932?
+40117	The package was delivered to zip code 7150 without any delay.
+40118	Postal code 6292 falls under a restricted delivery zone.
+40119	Residents in zip code 9789 have reported mail issues.
+40120	His current address uses the zip code 9392.
+40121	Is postal code 1875 part of the urban zone?
+40122	He’s been living in postal code 6125 for a decade now.
+40123	Your postal code 7820 is not within our service area.
+40124	Postal code 4712 falls under a restricted delivery zone.
+40125	The zip code 8083 is known for fast delivery services.
+40126	He’s been living in postal code 4410 for a decade now.
+40127	Your postal code 8870 is not within our service area.
+40128	There’s a distribution center near zip code 3184.
+40129	All deliveries in that district go through zip code 9594.
+40130	Make sure the shipping label shows zip code 2852.
+40131	Your postal code 1285 is not within our service area.
+40132	She recently moved to a new area with postal code 5838.
+40133	The package was delivered to zip code 8674 without any delay.
+40134	His current address uses the zip code 1588.
+40135	You wrote the wrong postal code – it should be 8112.
+40136	I think the postal code for that building is 4253.
+40137	Have you updated your address to postal code 1781?
+40138	You wrote the wrong postal code – it should be 5553.
+40139	You wrote the wrong postal code – it should be 2525.
+40140	I think the postal code for that building is 1068.
+40141	The package was delivered to zip code 1925 without any delay.
+40142	He’s been living in postal code 8188 for a decade now.
+40143	Your postal code 2438 is not within our service area.
+40144	Residents in zip code 1536 have reported mail issues.
+40145	Can you provide the postal code for 6700?
+40146	Can you provide the postal code for 8641?
+40147	Have you updated your address to postal code 6551?
+40148	Make sure the shipping label shows zip code 1419.
+40149	She recently moved to a new area with postal code 4235.
+40150	He’s been living in postal code 9781 for a decade now.
+40151	They registered the business at postal code 4689.
+40152	His current address uses the zip code 8359.
+40153	All deliveries in that district go through zip code 1020.
+40154	He’s been living in postal code 5179 for a decade now.
+40155	Have you updated your address to postal code 7981?
+40156	I think the postal code for that building is 7292.
+40157	His current address uses the zip code 7733.
+40158	I think the postal code for that building is 8609.
+40159	She recently moved to a new area with postal code 1098.
+40160	They registered the business at postal code 6625.
+40161	Check again, postal code for that place is 5355.
+40162	Make sure the shipping label shows zip code 7654.
+40163	Can you provide the postal code for 7753?
+40164	Check again, postal code for that place is 3630.
+40165	All deliveries in that district go through zip code 2462.
+40166	They registered the business at postal code 7953.
+40167	Residents in zip code 3073 have reported mail issues.
+40168	You wrote the wrong postal code – it should be 2898.
+40169	The zip code 4046 is known for fast delivery services.
+40170	We only serve customers in zip code 2516.
+40171	They registered the business at postal code 8281.
+40172	We only serve customers in zip code 6754.
+40173	There’s a distribution center near zip code 9088.
+40174	They registered the business at postal code 9704.
+40175	You wrote the wrong postal code – it should be 1358.
+40176	Is postal code 6457 part of the urban zone?
+40177	Can you provide the postal code for 6313?
+40178	She recently moved to a new area with postal code 8751.
+40179	Residents in zip code 7179 have reported mail issues.
+40180	Residents in zip code 7852 have reported mail issues.
+40181	You wrote the wrong postal code – it should be 3089.
+40182	Your postal code 1162 is not within our service area.
+40183	Is postal code 9403 part of the urban zone?
+40184	Residents in zip code 9558 have reported mail issues.
+40185	All deliveries in that district go through zip code 3683.
+40186	You wrote the wrong postal code – it should be 8395.
+40187	Can you provide the postal code for 9014?
+40188	Can you provide the postal code for 2501?
+40189	Check again, postal code for that place is 8607.
+40190	You wrote the wrong postal code – it should be 5501.
+40191	I think the postal code for that building is 2279.
+40192	Postal code 6358 falls under a restricted delivery zone.
+40193	Can you provide the postal code for 3414?
+40194	You wrote the wrong postal code – it should be 2519.
+40195	Please verify the postal code 1009, it seems incorrect.
+40196	Can you provide the postal code for 7880?
+40197	Is postal code 6908 part of the urban zone?
+40198	You wrote the wrong postal code – it should be 5095.
+40199	They registered the business at postal code 4082.
+40200	His current address uses the zip code 3611.
+40201	She recently moved to a new area with postal code 3437.
+40202	He’s been living in postal code 5092 for a decade now.
+40203	Have you updated your address to postal code 5409?
+40204	Have you updated your address to postal code 1600?
+40205	Postal code 4450 falls under a restricted delivery zone.
+40206	Check again, postal code for that place is 5128.
+40207	Your postal code 9134 is not within our service area.
+40208	All deliveries in that district go through zip code 5993.
+40209	We only serve customers in zip code 4600.
+40210	There’s a distribution center near zip code 9236.
+40211	All deliveries in that district go through zip code 1221.
+40212	Is postal code 7066 part of the urban zone?
+40213	You wrote the wrong postal code – it should be 3560.
+40214	The zip code 8774 is known for fast delivery services.
+40215	You wrote the wrong postal code – it should be 3164.
+40216	You wrote the wrong postal code – it should be 2090.
+40217	Make sure the shipping label shows zip code 1535.
+40218	Is postal code 9943 part of the urban zone?
+40219	Residents in zip code 5527 have reported mail issues.
+40220	I think the postal code for that building is 1053.
+40221	Residents in zip code 4868 have reported mail issues.
+40222	Make sure the shipping label shows zip code 6293.
+40223	Is postal code 4374 part of the urban zone?
+40224	The zip code 5937 is known for fast delivery services.
+40225	There’s a distribution center near zip code 5352.
+40226	They registered the business at postal code 4354.
+40227	There’s a distribution center near zip code 5731.
+40228	Check again, postal code for that place is 9704.
+40229	Postal code 9393 falls under a restricted delivery zone.
+40230	There’s a distribution center near zip code 5884.
+40231	They registered the business at postal code 5727.
+40232	We only serve customers in zip code 1249.
+40233	You wrote the wrong postal code – it should be 4114.
+40234	Check again, postal code for that place is 8246.
+40235	Is postal code 9355 part of the urban zone?
+40236	The package was delivered to zip code 4809 without any delay.
+40237	Can you provide the postal code for 7227?
+40238	I think the postal code for that building is 7744.
+40239	Residents in zip code 4021 have reported mail issues.
+40240	He’s been living in postal code 1103 for a decade now.
+40241	The zip code 4808 is known for fast delivery services.
+40242	His current address uses the zip code 2001.
+40243	The zip code 4378 is known for fast delivery services.
+40244	The zip code 2687 is known for fast delivery services.
+40245	Can you provide the postal code for 3190?
+40246	Is postal code 8122 part of the urban zone?
+40247	Postal code 4457 falls under a restricted delivery zone.
+40248	Please verify the postal code 9012, it seems incorrect.
+40249	He’s been living in postal code 6898 for a decade now.
+40250	Have you updated your address to postal code 5390?
+40251	Residents in zip code 8767 have reported mail issues.
+40252	Residents in zip code 1699 have reported mail issues.
+40253	Check again, postal code for that place is 5365.
+40254	All deliveries in that district go through zip code 7144.
+40255	Can you provide the postal code for 7919?
+40256	Please verify the postal code 4635, it seems incorrect.
+40257	I think the postal code for that building is 1065.
+40258	They registered the business at postal code 7061.
+40259	Your postal code 1105 is not within our service area.
+40260	His current address uses the zip code 6688.
+40261	Is postal code 8998 part of the urban zone?
+40262	The zip code 5698 is known for fast delivery services.
+40263	Check again, postal code for that place is 4871.
+40264	Make sure the shipping label shows zip code 5224.
+40265	His current address uses the zip code 7684.
+40266	The package was delivered to zip code 6419 without any delay.
+40267	They registered the business at postal code 8236.
+40268	Is postal code 8560 part of the urban zone?
+40269	Have you updated your address to postal code 5153?
+40270	You wrote the wrong postal code – it should be 3203.
+40271	There’s a distribution center near zip code 3905.
+40272	Make sure the shipping label shows zip code 7799.
+40273	His current address uses the zip code 3867.
+40274	You wrote the wrong postal code – it should be 1707.
+40275	She recently moved to a new area with postal code 1462.
+40276	Can you provide the postal code for 6117?
+40277	Check again, postal code for that place is 2039.
+40278	Please verify the postal code 6243, it seems incorrect.
+40279	Can you provide the postal code for 8065?
+40280	Your postal code 7935 is not within our service area.
+40281	Is postal code 9246 part of the urban zone?
+40282	She recently moved to a new area with postal code 1302.
+40283	There’s a distribution center near zip code 1175.
+40284	Residents in zip code 9140 have reported mail issues.
+40285	We only serve customers in zip code 5783.
+40286	I think the postal code for that building is 9607.
+40287	All deliveries in that district go through zip code 5499.
+40288	Is postal code 5416 part of the urban zone?
+40289	Your postal code 2302 is not within our service area.
+40290	Can you provide the postal code for 3875?
+40291	Postal code 8402 falls under a restricted delivery zone.
+40292	The package was delivered to zip code 4015 without any delay.
+40293	You wrote the wrong postal code – it should be 7269.
+40294	I think the postal code for that building is 6501.
+40295	There’s a distribution center near zip code 7060.
+40296	Residents in zip code 9071 have reported mail issues.
+40297	Can you provide the postal code for 1470?
+40298	All deliveries in that district go through zip code 9895.
+40299	Postal code 1045 falls under a restricted delivery zone.
+40300	The package was delivered to zip code 9113 without any delay.
+40301	Have you updated your address to postal code 2772?
+40302	Postal code 9995 falls under a restricted delivery zone.
+40303	He’s been living in postal code 8947 for a decade now.
+40304	You wrote the wrong postal code – it should be 2830.
+40305	Have you updated your address to postal code 6444?
+40306	I think the postal code for that building is 3407.
+40307	Have you updated your address to postal code 7118?
+40308	I think the postal code for that building is 6094.
+40309	Is postal code 1339 part of the urban zone?
+40310	Postal code 3749 falls under a restricted delivery zone.
+40311	Can you provide the postal code for 2924?
+40312	The zip code 2167 is known for fast delivery services.
+40313	We only serve customers in zip code 4178.
+40314	Make sure the shipping label shows zip code 4899.
+40315	There’s a distribution center near zip code 4996.
+40316	Please verify the postal code 5969, it seems incorrect.
+40317	All deliveries in that district go through zip code 1767.
+40318	We only serve customers in zip code 9449.
+40319	Residents in zip code 9873 have reported mail issues.
+40320	Residents in zip code 3013 have reported mail issues.
+40321	Your postal code 9541 is not within our service area.
+40322	Make sure the shipping label shows zip code 8811.
+40323	There’s a distribution center near zip code 2969.
+40324	Your postal code 2619 is not within our service area.
+40325	Check again, postal code for that place is 3574.
+40326	Residents in zip code 8157 have reported mail issues.
+40327	Is postal code 2876 part of the urban zone?
+40328	Please verify the postal code 2883, it seems incorrect.
+40329	She recently moved to a new area with postal code 6716.
+40330	They registered the business at postal code 6517.
+40331	Have you updated your address to postal code 6920?
+40332	He’s been living in postal code 7781 for a decade now.
+40333	You wrote the wrong postal code – it should be 3113.
+40334	Please verify the postal code 2632, it seems incorrect.
+40335	Residents in zip code 9913 have reported mail issues.
+40336	Make sure the shipping label shows zip code 5428.
+40337	He’s been living in postal code 8731 for a decade now.
+40338	You wrote the wrong postal code – it should be 3703.
+40339	Your postal code 3320 is not within our service area.
+40340	Can you provide the postal code for 2209?
+40341	There’s a distribution center near zip code 8457.
+40342	I think the postal code for that building is 6666.
+40343	The zip code 8367 is known for fast delivery services.
+40344	We only serve customers in zip code 2705.
+40345	His current address uses the zip code 9624.
+40346	I think the postal code for that building is 3923.
+40347	Postal code 3947 falls under a restricted delivery zone.
+40348	All deliveries in that district go through zip code 6875.
+40349	They registered the business at postal code 5548.
+40350	Please verify the postal code 3266, it seems incorrect.
+40351	I think the postal code for that building is 9199.
+40352	His current address uses the zip code 1413.
+40353	His current address uses the zip code 7977.
+40354	Please verify the postal code 7214, it seems incorrect.
+40355	His current address uses the zip code 1303.
+40356	All deliveries in that district go through zip code 5859.
+40357	Please verify the postal code 3654, it seems incorrect.
+40358	The package was delivered to zip code 6037 without any delay.
+40359	Is postal code 8502 part of the urban zone?
+40360	Postal code 2529 falls under a restricted delivery zone.
+40361	They registered the business at postal code 8499.
+40362	You wrote the wrong postal code – it should be 5533.
+40363	Is postal code 8719 part of the urban zone?
+40364	You wrote the wrong postal code – it should be 6190.
+40365	Check again, postal code for that place is 6856.
+40366	Residents in zip code 4148 have reported mail issues.
+40367	Postal code 7969 falls under a restricted delivery zone.
+40368	The package was delivered to zip code 9961 without any delay.
+40369	He’s been living in postal code 4673 for a decade now.
+40370	The package was delivered to zip code 3191 without any delay.
+40371	The zip code 6176 is known for fast delivery services.
+40372	They registered the business at postal code 6384.
+40373	All deliveries in that district go through zip code 7960.
+40374	They registered the business at postal code 2336.
+40375	Postal code 4779 falls under a restricted delivery zone.
+40376	Residents in zip code 9339 have reported mail issues.
+40377	They registered the business at postal code 4453.
+40378	He’s been living in postal code 9595 for a decade now.
+40379	Is postal code 9787 part of the urban zone?
+40380	I think the postal code for that building is 5842.
+40381	The package was delivered to zip code 8263 without any delay.
+40382	We only serve customers in zip code 1926.
+40383	Have you updated your address to postal code 3373?
+40384	She recently moved to a new area with postal code 4162.
+40385	Check again, postal code for that place is 2650.
+40386	He’s been living in postal code 7800 for a decade now.
+40387	Your postal code 5199 is not within our service area.
+40388	We only serve customers in zip code 8223.
+40389	Postal code 7847 falls under a restricted delivery zone.
+40390	Is postal code 5897 part of the urban zone?
+40391	Postal code 2752 falls under a restricted delivery zone.
+40392	She recently moved to a new area with postal code 9904.
+40393	You wrote the wrong postal code – it should be 3408.
+40394	You wrote the wrong postal code – it should be 3247.
+40395	You wrote the wrong postal code – it should be 8860.
+40396	The zip code 4361 is known for fast delivery services.
+40397	She recently moved to a new area with postal code 1764.
+40398	She recently moved to a new area with postal code 7991.
+40399	Can you provide the postal code for 8888?
+40400	All deliveries in that district go through zip code 3531.
+40401	She recently moved to a new area with postal code 2954.
+40402	He’s been living in postal code 4839 for a decade now.
+40403	The zip code 9234 is known for fast delivery services.
+40404	Is postal code 1983 part of the urban zone?
+40405	Can you provide the postal code for 3689?
+40406	Is postal code 4960 part of the urban zone?
+40407	I think the postal code for that building is 4109.
+40408	Is postal code 1608 part of the urban zone?
+40409	I think the postal code for that building is 2086.
+40410	The zip code 2568 is known for fast delivery services.
+40411	All deliveries in that district go through zip code 4356.
+40412	Postal code 3406 falls under a restricted delivery zone.
+40413	She recently moved to a new area with postal code 2350.
+40414	Please verify the postal code 2000, it seems incorrect.
+40415	Can you provide the postal code for 4265?
+40416	We only serve customers in zip code 5532.
+40417	Have you updated your address to postal code 8075?
+40418	There’s a distribution center near zip code 2680.
+40419	The zip code 3918 is known for fast delivery services.
+40420	Check again, postal code for that place is 2695.
+40421	There’s a distribution center near zip code 6585.
+40422	Your postal code 5842 is not within our service area.
+40423	All deliveries in that district go through zip code 1136.
+40424	Please verify the postal code 6270, it seems incorrect.
+40425	All deliveries in that district go through zip code 1365.
+40426	The zip code 9367 is known for fast delivery services.
+40427	Can you provide the postal code for 6830?
+40428	Residents in zip code 4976 have reported mail issues.
+40429	Check again, postal code for that place is 8733.
+40430	I think the postal code for that building is 9581.
+40431	They registered the business at postal code 4881.
+40432	His current address uses the zip code 9378.
+40433	They registered the business at postal code 1482.
+40434	Check again, postal code for that place is 9975.
+40435	Postal code 8504 falls under a restricted delivery zone.
+40436	All deliveries in that district go through zip code 1800.
+40437	We only serve customers in zip code 9124.
+40438	I think the postal code for that building is 8253.
+40439	All deliveries in that district go through zip code 5355.
+40440	Residents in zip code 6106 have reported mail issues.
+40441	All deliveries in that district go through zip code 3149.
+40442	He’s been living in postal code 3631 for a decade now.
+40443	I think the postal code for that building is 7617.
+40444	She recently moved to a new area with postal code 2649.
+40445	Postal code 4688 falls under a restricted delivery zone.
+40446	Is postal code 4784 part of the urban zone?
+40447	There’s a distribution center near zip code 2786.
+40448	Can you provide the postal code for 5313?
+40449	Have you updated your address to postal code 6268?
+40450	She recently moved to a new area with postal code 2525.
+40451	She recently moved to a new area with postal code 6487.
+40452	Check again, postal code for that place is 4142.
+40453	The package was delivered to zip code 1191 without any delay.
+40454	There’s a distribution center near zip code 4908.
+40455	You wrote the wrong postal code – it should be 1748.
+40456	All deliveries in that district go through zip code 6166.
+40457	The package was delivered to zip code 7410 without any delay.
+40458	Postal code 8904 falls under a restricted delivery zone.
+40459	Please verify the postal code 4555, it seems incorrect.
+40460	I think the postal code for that building is 1898.
+40461	Can you provide the postal code for 8477?
+40462	They registered the business at postal code 1961.
+40463	Is postal code 2856 part of the urban zone?
+40464	Is postal code 5090 part of the urban zone?
+40465	I think the postal code for that building is 2028.
+40466	Check again, postal code for that place is 1087.
+40467	They registered the business at postal code 5641.
+40468	The zip code 5264 is known for fast delivery services.
+40469	Make sure the shipping label shows zip code 8947.
+40470	The package was delivered to zip code 7332 without any delay.
+40471	Make sure the shipping label shows zip code 6537.
+40472	Check again, postal code for that place is 8122.
+40473	His current address uses the zip code 9926.
+40474	Make sure the shipping label shows zip code 1138.
+40475	Your postal code 5919 is not within our service area.
+40476	I think the postal code for that building is 2929.
+40477	Can you provide the postal code for 6100?
+40478	All deliveries in that district go through zip code 3576.
+40479	Can you provide the postal code for 6001?
+40480	Your postal code 7153 is not within our service area.
+40481	Your postal code 6074 is not within our service area.
+40482	They registered the business at postal code 4807.
+40483	All deliveries in that district go through zip code 5930.
+40484	Make sure the shipping label shows zip code 2744.
+40485	I think the postal code for that building is 8273.
+40486	We only serve customers in zip code 8879.
+40487	Have you updated your address to postal code 7128?
+40488	There’s a distribution center near zip code 9734.
+40489	Check again, postal code for that place is 1712.
+40490	Postal code 7326 falls under a restricted delivery zone.
+40491	He’s been living in postal code 4191 for a decade now.
+40492	All deliveries in that district go through zip code 4519.
+40493	All deliveries in that district go through zip code 3408.
+40494	You wrote the wrong postal code – it should be 2861.
+40495	You wrote the wrong postal code – it should be 9768.
+40496	We only serve customers in zip code 2059.
+40497	Residents in zip code 1841 have reported mail issues.
+40498	Residents in zip code 1136 have reported mail issues.
+40499	He’s been living in postal code 1410 for a decade now.

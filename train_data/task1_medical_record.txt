@@ -1,0 +1,500 @@
+40000	Medical records team confirmed details under 764904.
+40001	Medical record 180238 is archived in our system now.
+40002	Access to medical record 855914.XOT was requested.
+40003	The system retrieved details for medical record 547771.
+40004	Patient was identified using medical record 423107.
+40005	The system retrieved details for medical record 545549.
+40006	The system retrieved details for medical record 105778.
+40007	Verification completed for medical record number 400090.HKS.
+40008	We found discrepancies in medical record 754002 during the review.
+40009	Medical record 850208 was flagged for further review.
+40010	Errors were found in medical record number 398725.VMO during the audit.
+40011	We found discrepancies in medical record 372601.GUX during the review.
+40012	The system retrieved details for medical record 961373.
+40013	Patient was identified using medical record 388543.LNW.
+40014	Medical record 848325 was flagged for further review.
+40015	Verification completed for medical record number 368961.HCR.
+40016	The patient's medical record number is 369953.NYI.
+40017	Verification completed for medical record number 688204.SSN.
+40018	Admission papers stated medical record number 815591.
+40019	Admission papers stated medical record number 210840.
+40020	All billing information is tied to medical record number 457008.ABW.
+40021	The patient's medical record number is 287444.
+40022	The system retrieved details for medical record 810136.HEQ.
+40023	Verification completed for medical record number 276657.
+40024	Errors were found in medical record number 598178.JHA during the audit.
+40025	We found discrepancies in medical record 361728.TSI during the review.
+40026	Data migration was initiated for medical record 454228.MVH.
+40027	Medical record 567164.CLZ was flagged for further review.
+40028	Errors were found in medical record number 629183.WWK during the audit.
+40029	Medical record 295636 was flagged for further review.
+40030	Consent was linked to medical record 671571.LML.
+40031	Notification sent regarding updates in medical record number 801839.
+40032	The system retrieved details for medical record 963602.
+40033	Medical record 513401.POU is archived in our system now.
+40034	Patient was identified using medical record 698005.
+40035	Medical record 769764 was flagged for further review.
+40036	The system retrieved details for medical record 323920.LNC.
+40037	Please provide your medical record number 748222 at check-in.
+40038	Errors were found in medical record number 314230.CSS during the audit.
+40039	Medical records team confirmed details under 779209.KRV.
+40040	Medical records team confirmed details under 277035.
+40041	We found discrepancies in medical record 306399.RRT during the review.
+40042	Issues related to medical record 934835 were resolved last week.
+40043	Please provide your medical record number 188888 at check-in.
+40044	The form listed medical record 662925 as reference.
+40045	Notification sent regarding updates in medical record number 530042.HRM.
+40046	The patient's medical record number is 850678.XFG.
+40047	Notification sent regarding updates in medical record number 863303.
+40048	Medical record 393741 is archived in our system now.
+40049	Admission papers stated medical record number 953360.
+40050	Errors were found in medical record number 723116.LJV during the audit.
+40051	Consent was linked to medical record 619105.OFX.
+40052	Medical record 289758.LMY was flagged for further review.
+40053	Medical record 595259 was flagged for further review.
+40054	All billing information is tied to medical record number 279614.
+40055	Issues related to medical record 459578 were resolved last week.
+40056	The patient's medical record number is 133724.TGK.
+40057	Data migration was initiated for medical record 852110.
+40058	The patient's medical record number is 481684.EOD.
+40059	All billing information is tied to medical record number 615367.RFG.
+40060	Errors were found in medical record number 534122 during the audit.
+40061	Access to medical record 718775.WYJ was requested.
+40062	Medical record 779255.WJR was flagged for further review.
+40063	Medical records team confirmed details under 187975.
+40064	Medical record 415043.JPW is archived in our system now.
+40065	Data migration was initiated for medical record 274910.KFP.
+40066	Access to medical record 858328 was requested.
+40067	Your appointment has been linked to medical record number 465640.
+40068	Medical records team confirmed details under 403736.BIW.
+40069	All billing information is tied to medical record number 960485.
+40070	The system retrieved details for medical record 837279.HDV.
+40071	Your appointment has been linked to medical record number 447412.
+40072	The form listed medical record 998816 as reference.
+40073	Patient was identified using medical record 252401.
+40074	Verification completed for medical record number 532106.
+40075	Patient was identified using medical record 559222.
+40076	Consent was linked to medical record 736102.
+40077	The system retrieved details for medical record 631026.
+40078	Medical record 870493.OVK was flagged for further review.
+40079	Verification completed for medical record number 721780.AJR.
+40080	Errors were found in medical record number 850138.GQT during the audit.
+40081	Your appointment has been linked to medical record number 970394.QCU.
+40082	Medical record 983384.EPA is archived in our system now.
+40083	Medical record 627693 was flagged for further review.
+40084	The system retrieved details for medical record 862981.
+40085	All billing information is tied to medical record number 621869.DIW.
+40086	Medical records team confirmed details under 951522.
+40087	Verification completed for medical record number 481857.
+40088	Errors were found in medical record number 690730 during the audit.
+40089	All billing information is tied to medical record number 947201.YWK.
+40090	Issues related to medical record 625368.KSC were resolved last week.
+40091	The system retrieved details for medical record 386634.HAW.
+40092	Medical records team confirmed details under 729110.
+40093	Your appointment has been linked to medical record number 273783.QKN.
+40094	Patient was identified using medical record 376647.GMF.
+40095	Medical records team confirmed details under 574965.
+40096	Medical record 136054 is archived in our system now.
+40097	Please provide your medical record number 803131.YDO at check-in.
+40098	Admission papers stated medical record number 955824.ESQ.
+40099	Records were updated under medical record number 358944.BXG.
+40100	The form listed medical record 610120 as reference.
+40101	Access to medical record 111886 was requested.
+40102	Data migration was initiated for medical record 761324.QAK.
+40103	We found discrepancies in medical record 714759.KDL during the review.
+40104	Consent was linked to medical record 408101.
+40105	We found discrepancies in medical record 386423.LDG during the review.
+40106	Please provide your medical record number 297436 at check-in.
+40107	Your appointment has been linked to medical record number 470873.
+40108	Records were updated under medical record number 894970.
+40109	Records were updated under medical record number 455650.
+40110	Consent was linked to medical record 553223.JJX.
+40111	Records were updated under medical record number 718556.
+40112	Admission papers stated medical record number 972858.GKE.
+40113	Issues related to medical record 607539 were resolved last week.
+40114	Records were updated under medical record number 921569.
+40115	Consent was linked to medical record 115523.RIT.
+40116	Medical record 518179 was flagged for further review.
+40117	Access to medical record 340992 was requested.
+40118	Admission papers stated medical record number 606012.
+40119	Your appointment has been linked to medical record number 444942.
+40120	Medical records team confirmed details under 462943.DNL.
+40121	The form listed medical record 134104.CDD as reference.
+40122	All billing information is tied to medical record number 593794.BFK.
+40123	The form listed medical record 466233.TJG as reference.
+40124	Notification sent regarding updates in medical record number 204054.VEU.
+40125	The system retrieved details for medical record 760418.
+40126	Issues related to medical record 757703.IVH were resolved last week.
+40127	Patient was identified using medical record 427569.YTA.
+40128	Issues related to medical record 261323.GNR were resolved last week.
+40129	The patient's medical record number is 313107.MBU.
+40130	The patient's medical record number is 226844.AVG.
+40131	The system retrieved details for medical record 516353.
+40132	Access to medical record 544442 was requested.
+40133	Issues related to medical record 860670 were resolved last week.
+40134	Errors were found in medical record number 237475 during the audit.
+40135	The form listed medical record 756871 as reference.
+40136	All billing information is tied to medical record number 416251.
+40137	Please provide your medical record number 384245 at check-in.
+40138	Verification completed for medical record number 233894.
+40139	The form listed medical record 419977 as reference.
+40140	Admission papers stated medical record number 750238.JFM.
+40141	Your appointment has been linked to medical record number 144781.EKY.
+40142	Records were updated under medical record number 964305.
+40143	Records were updated under medical record number 915096.
+40144	The form listed medical record 939258.REC as reference.
+40145	Please provide your medical record number 513300.UAE at check-in.
+40146	Medical record 207902.ZJO is archived in our system now.
+40147	Issues related to medical record 385054 were resolved last week.
+40148	Verification completed for medical record number 934030.
+40149	Errors were found in medical record number 462988.FAT during the audit.
+40150	Patient was identified using medical record 171062.
+40151	Errors were found in medical record number 659226 during the audit.
+40152	The patient's medical record number is 855029.CPF.
+40153	Medical record 588497 is archived in our system now.
+40154	Data migration was initiated for medical record 706723.VQF.
+40155	Access to medical record 822318.NQJ was requested.
+40156	Issues related to medical record 189977.WZG were resolved last week.
+40157	Verification completed for medical record number 718499.DNS.
+40158	Access to medical record 430627 was requested.
+40159	Records were updated under medical record number 599815.
+40160	Please provide your medical record number 439772 at check-in.
+40161	Medical records team confirmed details under 752268.
+40162	Errors were found in medical record number 619084 during the audit.
+40163	We found discrepancies in medical record 221498 during the review.
+40164	Consent was linked to medical record 901167.
+40165	We found discrepancies in medical record 898481 during the review.
+40166	Notification sent regarding updates in medical record number 822474.FTQ.
+40167	Please provide your medical record number 428633 at check-in.
+40168	Consent was linked to medical record 458570.
+40169	Patient was identified using medical record 847545.ATY.
+40170	Issues related to medical record 417472 were resolved last week.
+40171	The system retrieved details for medical record 351025.EIH.
+40172	Medical record 161347 is archived in our system now.
+40173	Please provide your medical record number 748124.HGW at check-in.
+40174	Please provide your medical record number 701550 at check-in.
+40175	Records were updated under medical record number 267639.HDI.
+40176	We found discrepancies in medical record 841943 during the review.
+40177	Records were updated under medical record number 905089.LLG.
+40178	The system retrieved details for medical record 390693.
+40179	The system retrieved details for medical record 178556.
+40180	Notification sent regarding updates in medical record number 496510.UMC.
+40181	We found discrepancies in medical record 494010 during the review.
+40182	Errors were found in medical record number 795970 during the audit.
+40183	Medical record 205852 is archived in our system now.
+40184	Notification sent regarding updates in medical record number 583701.
+40185	Admission papers stated medical record number 166250.
+40186	Consent was linked to medical record 556422.HVB.
+40187	Data migration was initiated for medical record 531922.MSJ.
+40188	Verification completed for medical record number 687437.
+40189	Errors were found in medical record number 313577 during the audit.
+40190	Consent was linked to medical record 135438.QPP.
+40191	Errors were found in medical record number 816603 during the audit.
+40192	Access to medical record 761120 was requested.
+40193	Your appointment has been linked to medical record number 693522.KVW.
+40194	Issues related to medical record 466016.IHI were resolved last week.
+40195	Please provide your medical record number 651424 at check-in.
+40196	Verification completed for medical record number 291762.OUJ.
+40197	Notification sent regarding updates in medical record number 528839.
+40198	Patient was identified using medical record 782079.DOS.
+40199	Medical record 147054.VSY was flagged for further review.
+40200	The form listed medical record 986104.XDQ as reference.
+40201	Verification completed for medical record number 331554.LKP.
+40202	Your appointment has been linked to medical record number 384155.QGP.
+40203	Access to medical record 933520.IAA was requested.
+40204	The form listed medical record 703727.DII as reference.
+40205	Verification completed for medical record number 838865.
+40206	The form listed medical record 100216.PWD as reference.
+40207	We found discrepancies in medical record 488957 during the review.
+40208	Please provide your medical record number 479606 at check-in.
+40209	Access to medical record 188352 was requested.
+40210	Access to medical record 599188.OJU was requested.
+40211	Data migration was initiated for medical record 633561.HEY.
+40212	Verification completed for medical record number 131824.KOU.
+40213	Notification sent regarding updates in medical record number 753454.OIC.
+40214	Patient was identified using medical record 403707.
+40215	Access to medical record 481733.ZKH was requested.
+40216	Access to medical record 716988.CNL was requested.
+40217	Notification sent regarding updates in medical record number 411235.
+40218	Errors were found in medical record number 968185 during the audit.
+40219	Admission papers stated medical record number 984149.TRC.
+40220	Errors were found in medical record number 131666.AXE during the audit.
+40221	Your appointment has been linked to medical record number 540269.
+40222	Medical record 630698.YKU was flagged for further review.
+40223	The form listed medical record 698525 as reference.
+40224	Medical record 256546.PAN is archived in our system now.
+40225	Records were updated under medical record number 994516.EMU.
+40226	Admission papers stated medical record number 105150.
+40227	Verification completed for medical record number 415059.
+40228	All billing information is tied to medical record number 449084.
+40229	All billing information is tied to medical record number 736509.KLU.
+40230	Consent was linked to medical record 754061.HVF.
+40231	Please provide your medical record number 759033.ZPF at check-in.
+40232	Access to medical record 201842.ZXY was requested.
+40233	Issues related to medical record 445085.DPX were resolved last week.
+40234	Medical record 961256.QOV is archived in our system now.
+40235	Your appointment has been linked to medical record number 999608.
+40236	Notification sent regarding updates in medical record number 386136.PMZ.
+40237	Records were updated under medical record number 666397.FME.
+40238	Access to medical record 979429 was requested.
+40239	Notification sent regarding updates in medical record number 111541.DZQ.
+40240	Patient was identified using medical record 980805.JUC.
+40241	Medical record 594906.NSQ was flagged for further review.
+40242	The form listed medical record 422522 as reference.
+40243	All billing information is tied to medical record number 602465.PKH.
+40244	Your appointment has been linked to medical record number 141034.
+40245	The form listed medical record 825603.PAM as reference.
+40246	All billing information is tied to medical record number 669950.AKP.
+40247	Patient was identified using medical record 780873.
+40248	Patient was identified using medical record 988265.XDY.
+40249	Records were updated under medical record number 425581.BJQ.
+40250	All billing information is tied to medical record number 819211.QYL.
+40251	Please provide your medical record number 450881 at check-in.
+40252	Issues related to medical record 370742.KWU were resolved last week.
+40253	Your appointment has been linked to medical record number 713904.OCB.
+40254	Medical record 980593.VSN was flagged for further review.
+40255	All billing information is tied to medical record number 901643.GYG.
+40256	Medical record 968945.BED was flagged for further review.
+40257	We found discrepancies in medical record 989301 during the review.
+40258	Verification completed for medical record number 393688.VPF.
+40259	We found discrepancies in medical record 469835 during the review.
+40260	Admission papers stated medical record number 855821.
+40261	Medical records team confirmed details under 204668.KFA.
+40262	Please provide your medical record number 131618.JQQ at check-in.
+40263	Medical records team confirmed details under 931537.
+40264	Consent was linked to medical record 660526.KTC.
+40265	The patient's medical record number is 798994.SAR.
+40266	The form listed medical record 290313.TCI as reference.
+40267	Access to medical record 800287.LUY was requested.
+40268	Consent was linked to medical record 879915.TTQ.
+40269	Medical record 866990 was flagged for further review.
+40270	Issues related to medical record 492703 were resolved last week.
+40271	The system retrieved details for medical record 107688.
+40272	We found discrepancies in medical record 175815 during the review.
+40273	Medical record 559651.UMT was flagged for further review.
+40274	Medical record 550678.HWU was flagged for further review.
+40275	Medical record 129561.KHO is archived in our system now.
+40276	Admission papers stated medical record number 257787.ESC.
+40277	Medical records team confirmed details under 635246.NRU.
+40278	Consent was linked to medical record 487301.
+40279	Patient was identified using medical record 412955.
+40280	Verification completed for medical record number 302438.
+40281	Records were updated under medical record number 131429.
+40282	Medical record 834185 was flagged for further review.
+40283	Please provide your medical record number 798462 at check-in.
+40284	Verification completed for medical record number 206911.SPJ.
+40285	All billing information is tied to medical record number 646843.
+40286	Patient was identified using medical record 537812.
+40287	The form listed medical record 126104 as reference.
+40288	Consent was linked to medical record 916928.
+40289	Medical record 727369.CQA was flagged for further review.
+40290	Records were updated under medical record number 763311.PXL.
+40291	Medical records team confirmed details under 234209.MCP.
+40292	The form listed medical record 393537.GMR as reference.
+40293	Medical record 923483.YAX was flagged for further review.
+40294	Medical records team confirmed details under 984218.BNO.
+40295	Admission papers stated medical record number 852759.CBN.
+40296	Issues related to medical record 750719.QHH were resolved last week.
+40297	Medical records team confirmed details under 203240.
+40298	Admission papers stated medical record number 893508.
+40299	The system retrieved details for medical record 387902.
+40300	Medical records team confirmed details under 787061.
+40301	Medical record 671157 is archived in our system now.
+40302	Notification sent regarding updates in medical record number 357612.
+40303	Data migration was initiated for medical record 348370.
+40304	The patient's medical record number is 527624.EKR.
+40305	The system retrieved details for medical record 662882.PQA.
+40306	Patient was identified using medical record 472599.ULW.
+40307	Medical record 675848.DKS is archived in our system now.
+40308	Errors were found in medical record number 764758 during the audit.
+40309	The form listed medical record 439005.VNO as reference.
+40310	Notification sent regarding updates in medical record number 250610.IFD.
+40311	Medical record 921766.RRI was flagged for further review.
+40312	We found discrepancies in medical record 192620.LHH during the review.
+40313	Errors were found in medical record number 244321.UTB during the audit.
+40314	Please provide your medical record number 239912.LMQ at check-in.
+40315	Medical record 606400 is archived in our system now.
+40316	All billing information is tied to medical record number 949795.
+40317	Records were updated under medical record number 911133.VAG.
+40318	Consent was linked to medical record 261912.YPG.
+40319	Consent was linked to medical record 796955.
+40320	Medical record 958576.PUF is archived in our system now.
+40321	The system retrieved details for medical record 533977.
+40322	Medical records team confirmed details under 426327.
+40323	Errors were found in medical record number 652175.FDZ during the audit.
+40324	Please provide your medical record number 823285.WZK at check-in.
+40325	Medical record 486985.EDC was flagged for further review.
+40326	Medical record 244010.ZVH is archived in our system now.
+40327	The patient's medical record number is 885694.VVX.
+40328	Access to medical record 840285.GNV was requested.
+40329	Medical record 900082 was flagged for further review.
+40330	Verification completed for medical record number 524275.
+40331	Issues related to medical record 669815.ZVQ were resolved last week.
+40332	We found discrepancies in medical record 124938 during the review.
+40333	Medical record 119839.XLA is archived in our system now.
+40334	Access to medical record 542936.NZK was requested.
+40335	Errors were found in medical record number 382118.EYH during the audit.
+40336	The system retrieved details for medical record 183233.
+40337	Medical record 492696.OIH was flagged for further review.
+40338	Consent was linked to medical record 496283.
+40339	Medical record 343492.YAI was flagged for further review.
+40340	The system retrieved details for medical record 775247.SUU.
+40341	Your appointment has been linked to medical record number 970104.KZJ.
+40342	We found discrepancies in medical record 547846 during the review.
+40343	Your appointment has been linked to medical record number 493039.JZH.
+40344	The form listed medical record 905878.PPL as reference.
+40345	All billing information is tied to medical record number 233785.
+40346	Verification completed for medical record number 171486.
+40347	We found discrepancies in medical record 998403.TRD during the review.
+40348	Medical record 784485.FAU was flagged for further review.
+40349	Consent was linked to medical record 828767.ZVQ.
+40350	Access to medical record 680972 was requested.
+40351	Access to medical record 966831 was requested.
+40352	Please provide your medical record number 569477 at check-in.
+40353	Medical records team confirmed details under 246853.RLV.
+40354	Medical record 126789.OAP is archived in our system now.
+40355	The patient's medical record number is 680691.
+40356	Please provide your medical record number 945835 at check-in.
+40357	Consent was linked to medical record 794006.GUA.
+40358	Errors were found in medical record number 917548.QYT during the audit.
+40359	Medical record 380212 is archived in our system now.
+40360	The system retrieved details for medical record 500614.
+40361	Patient was identified using medical record 870520.
+40362	Please provide your medical record number 437543 at check-in.
+40363	Notification sent regarding updates in medical record number 868067.
+40364	Medical records team confirmed details under 686903.
+40365	Records were updated under medical record number 775360.CMO.
+40366	Access to medical record 578711 was requested.
+40367	Medical record 564110 was flagged for further review.
+40368	Medical records team confirmed details under 453721.
+40369	Medical records team confirmed details under 303456.
+40370	Access to medical record 244337.KHA was requested.
+40371	Consent was linked to medical record 100138.
+40372	Admission papers stated medical record number 639489.KJT.
+40373	Patient was identified using medical record 394283.SBZ.
+40374	Data migration was initiated for medical record 538878.
+40375	Your appointment has been linked to medical record number 485924.
+40376	Data migration was initiated for medical record 561053.YYJ.
+40377	All billing information is tied to medical record number 206840.YUU.
+40378	Data migration was initiated for medical record 937331.
+40379	Medical record 723890.QCX is archived in our system now.
+40380	We found discrepancies in medical record 603593.PYF during the review.
+40381	Access to medical record 716882.SBA was requested.
+40382	Your appointment has been linked to medical record number 356123.
+40383	Notification sent regarding updates in medical record number 917055.JDY.
+40384	Access to medical record 280846.MMH was requested.
+40385	Patient was identified using medical record 711663.RVV.
+40386	Data migration was initiated for medical record 209200.ZES.
+40387	The system retrieved details for medical record 310421.
+40388	Access to medical record 796563 was requested.
+40389	All billing information is tied to medical record number 937056.
+40390	Access to medical record 151729.ZWN was requested.
+40391	Errors were found in medical record number 521822.NSL during the audit.
+40392	Verification completed for medical record number 847706.YPY.
+40393	Access to medical record 287708.NAY was requested.
+40394	Access to medical record 334249.MUW was requested.
+40395	Patient was identified using medical record 708172.VZA.
+40396	The form listed medical record 689067 as reference.
+40397	Verification completed for medical record number 471121.
+40398	Records were updated under medical record number 460404.PQQ.
+40399	Medical records team confirmed details under 674144.EVD.
+40400	Patient was identified using medical record 928998.KSL.
+40401	Medical record 640195 was flagged for further review.
+40402	Errors were found in medical record number 446968 during the audit.
+40403	The form listed medical record 640749 as reference.
+40404	Access to medical record 695196 was requested.
+40405	Please provide your medical record number 711978 at check-in.
+40406	Verification completed for medical record number 877533.
+40407	Patient was identified using medical record 256372.
+40408	Notification sent regarding updates in medical record number 298384.
+40409	We found discrepancies in medical record 415104 during the review.
+40410	Please provide your medical record number 631220 at check-in.
+40411	Access to medical record 328285.HKF was requested.
+40412	Verification completed for medical record number 579648.IVG.
+40413	Errors were found in medical record number 706130 during the audit.
+40414	Your appointment has been linked to medical record number 888411.
+40415	Medical record 219894 was flagged for further review.
+40416	Issues related to medical record 805561 were resolved last week.
+40417	Medical record 311461.CJV is archived in our system now.
+40418	We found discrepancies in medical record 831275 during the review.
+40419	Your appointment has been linked to medical record number 285742.
+40420	Medical record 637694 was flagged for further review.
+40421	Errors were found in medical record number 966208 during the audit.
+40422	Consent was linked to medical record 564904.QSR.
+40423	Patient was identified using medical record 854131.
+40424	Please provide your medical record number 812116 at check-in.
+40425	Errors were found in medical record number 205354.BVM during the audit.
+40426	The system retrieved details for medical record 346758.
+40427	Errors were found in medical record number 819751 during the audit.
+40428	Admission papers stated medical record number 373957.ZFM.
+40429	Patient was identified using medical record 104207.SKV.
+40430	Medical records team confirmed details under 155244.OSJ.
+40431	Medical records team confirmed details under 665730.BOL.
+40432	Your appointment has been linked to medical record number 800554.
+40433	Patient was identified using medical record 251833.RFZ.
+40434	We found discrepancies in medical record 462001 during the review.
+40435	Patient was identified using medical record 908280.DVK.
+40436	The form listed medical record 555189 as reference.
+40437	All billing information is tied to medical record number 252246.QKY.
+40438	Please provide your medical record number 896197.GBA at check-in.
+40439	Medical record 467422.HTK is archived in our system now.
+40440	The system retrieved details for medical record 485496.XOY.
+40441	Data migration was initiated for medical record 412127.
+40442	The form listed medical record 915356 as reference.
+40443	The form listed medical record 575087 as reference.
+40444	Please provide your medical record number 736839.OMP at check-in.
+40445	Medical record 747836.SEC is archived in our system now.
+40446	Issues related to medical record 310262.PLR were resolved last week.
+40447	Errors were found in medical record number 477223.DPS during the audit.
+40448	We found discrepancies in medical record 804143.NZI during the review.
+40449	Records were updated under medical record number 304085.ROJ.
+40450	Admission papers stated medical record number 652519.XWU.
+40451	Admission papers stated medical record number 677279.TQO.
+40452	The form listed medical record 377782 as reference.
+40453	Your appointment has been linked to medical record number 228910.IMS.
+40454	All billing information is tied to medical record number 746114.INH.
+40455	The patient's medical record number is 216689.
+40456	Records were updated under medical record number 142193.FJE.
+40457	The patient's medical record number is 533539.ISM.
+40458	We found discrepancies in medical record 497044.NJS during the review.
+40459	Data migration was initiated for medical record 135702.
+40460	Errors were found in medical record number 553607 during the audit.
+40461	Your appointment has been linked to medical record number 834003.
+40462	The form listed medical record 733170 as reference.
+40463	The patient's medical record number is 958925.EDG.
+40464	Verification completed for medical record number 720838.
+40465	Please provide your medical record number 130257.VNQ at check-in.
+40466	The form listed medical record 333230.ULJ as reference.
+40467	All billing information is tied to medical record number 656219.
+40468	Errors were found in medical record number 271232 during the audit.
+40469	Notification sent regarding updates in medical record number 643275.ZGK.
+40470	The form listed medical record 171849 as reference.
+40471	Verification completed for medical record number 635677.
+40472	Verification completed for medical record number 674624.
+40473	All billing information is tied to medical record number 892174.MPZ.
+40474	Patient was identified using medical record 341109.
+40475	Consent was linked to medical record 249995.OFN.
+40476	Medical records team confirmed details under 818529.RVE.
+40477	Consent was linked to medical record 954901.
+40478	We found discrepancies in medical record 781361.WOT during the review.
+40479	Issues related to medical record 168003 were resolved last week.
+40480	Data migration was initiated for medical record 550406.IRV.
+40481	Records were updated under medical record number 310077.
+40482	We found discrepancies in medical record 827888.ELG during the review.
+40483	Your appointment has been linked to medical record number 957871.JME.
+40484	Your appointment has been linked to medical record number 130911.
+40485	The patient's medical record number is 890256.
+40486	Records were updated under medical record number 156767.DEZ.
+40487	Your appointment has been linked to medical record number 312351.
+40488	Verification completed for medical record number 830378.
+40489	Patient was identified using medical record 167576.
+40490	Issues related to medical record 821411 were resolved last week.
+40491	Data migration was initiated for medical record 953086.LLE.
+40492	Medical records team confirmed details under 988582.AQG.
+40493	Consent was linked to medical record 285938.NYA.
+40494	Medical record 119382 is archived in our system now.
+40495	Your appointment has been linked to medical record number 539900.
+40496	Medical record 335137.SDQ was flagged for further review.
+40497	Issues related to medical record 926116 were resolved last week.
+40498	Medical record 671559.DQO is archived in our system now.
+40499	Your appointment has been linked to medical record number 541121.

@@ -1,0 +1,29 @@
+3027	SET	every day
+3113	SET	every Monday
+24613	SET	every day.
+24613	SET	once a week
+24947	SET	per day
+25520	SET	every five
+25520	SET	or 10 minutes
+25724	SET	40 a week
+25952	SET	each day
+25952	SET	every day
+26876	SET	every day
+26876	SET	a couple of times a week
+26876	SET	the year
+27112	SET	every day
+27164	SET	four times a year
+27285	SET	couple of times
+27351	SET	one job per week
+29805	SET	Every day
+29805	SET	Every day
+30430	SET	Every day
+30714	SET	every night
+30934	SET	one day a week
+31132	SET	once a week
+31132	SET	every week
+32106	SET	two days a week
+32317	SET	every day
+32317   SET every day
+51489   SET twice
+51489   SET R2

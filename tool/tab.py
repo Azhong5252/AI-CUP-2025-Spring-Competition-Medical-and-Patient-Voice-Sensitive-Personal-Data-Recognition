@@ -1,0 +1,32 @@
+import sys
+import re
+def run():
+    # 檔案路徑（可以自己改）
+    input_path = "validation/inference_output.txt"
+    output_path = "validation/inference_output.txt"
+
+    # 讀取 input.txt
+    with open(input_path, "r", encoding="utf-8") as f:
+        lines = [line.strip() for line in f if line.strip()]
+
+    results = []
+    pattern = re.compile(r"^(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(.*)")
+
+    for line in lines:
+        match = pattern.match(line)
+        if match:
+            fields = match.groups()
+            results.append("\t".join(fields))
+        else:
+            # 如果格式不對，就保留原樣或略過
+            results.append(line)
+
+    # 寫入 output.txt
+    with open(output_path, "w", encoding="utf-8") as f:
+        for line in results:
+            f.write(line + "\n")
+
+    print(f"✅ 轉換完成！已輸出到 {output_path}")
+# 呼叫函數
+if __name__ == "__main__":
+    run()

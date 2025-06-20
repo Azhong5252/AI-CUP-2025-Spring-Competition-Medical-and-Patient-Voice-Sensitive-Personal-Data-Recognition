@@ -1,0 +1,11 @@
+whisper
+datasets
+SentencePiece
+transformers
+seqeval
+protobuf
+transformers==4.50.0
+accelerate==0.26.0
+huggingface-hub==0.33.0
+tqdm
+word2number
