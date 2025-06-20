@@ -1,9 +1,8 @@
 import random
 import re
 
-# ID_NUMBER 專用模板
 id_number_templates = [
-    # ID number 語句
+
     "This medical report pertains to Addison Dado, identified with ID number {}, medical record 634741.LNA, and lab number.",
     "This report concerns Harley Rader, medical record number 057758.kbp, ID number {}, and lab number 05T7830.",
     "This medical case pertains to Virginia James, whose medical record number is 664499.seu. Her lab number is 66M49971, and her documented medical history includes multiple significant dates. Her ID number is {}.",
@@ -15,7 +14,6 @@ id_number_templates = [
     "A duplicate was found for ID number {}.",
     "The system logged in under ID number is {}.",
     
-    # Lab number 語句（也是 ID_NUMBER 類型）
     "Patient's lab number is {}.",
     "The specimen was tagged with lab number {}.",
     "Lab number {} was used to identify the blood sample.",
@@ -29,7 +27,6 @@ id_number_templates = [
 ]
 
 
-# 生成 ID_NUMBER
 def generate_id_number():
     formats = [
         lambda: f"{random.randint(10,99)}{random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}{random.randint(100000,999999)}{random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}",  # e.g. 12R423044B
@@ -39,9 +36,7 @@ def generate_id_number():
     ]
     return random.choice(formats)()
 
-# 找出 ID_NUMBER
 def find_id_number_mentions(text):
-    # 強化版正則式：抓 lab number 或 ID number 後的代碼
     pattern = r"\b(?:ID number|lab number)\s+(\d{2}[A-Z]\d{4,6}[A-Z]?|[A-Z]\d)\b"
     results = []
     for m in re.finditer(pattern, text, flags=re.IGNORECASE):
@@ -51,7 +46,6 @@ def find_id_number_mentions(text):
     return results
 
 
-# 產生資料並保存
 def generate_id_number_data(filename1, filename2, start_sid=50000, total=500):
     task1, task2 = [], []
     sid = start_sid
@@ -84,7 +78,6 @@ def generate_id_number_data(filename1, filename2, start_sid=50000, total=500):
         f1.write("\n".join(task1))
         f2.write("\n".join(task2))
 
-    print(f"✅ ID_NUMBER 資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
+    print(f" ID_NUMBER 資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
 
-# 使用
 generate_id_number_data("task1_id_number.txt", "task2_id_number.txt")

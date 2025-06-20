@@ -2,7 +2,6 @@ import random
 import re
 import string
 
-# MEDICAL_RECORD_NUMBER 專用模板
 medical_record_templates = [
     "Patient was identified using medical record {}.",
     "The patient's medical record number is {}.",
@@ -27,16 +26,14 @@ medical_record_templates = [
 ]
 
 
-# 生成 medical record 數字（可能加.字母）
 def generate_medical_record_number():
-    number = str(random.randint(100000, 999999))  # 6位數
+    number = str(random.randint(100000, 999999)) 
     if random.random() < 0.5:
-        suffix = '.' + ''.join(random.choices(string.ascii_uppercase, k=3))  # 加 .ABC
+        suffix = '.' + ''.join(random.choices(string.ascii_uppercase, k=3))  
         return number + suffix
     else:
         return number
 
-# 抓取 medical record number 出現的地方
 def find_medical_record_number_mentions(text):
     pattern = r"(?:medical record(?: number)? )(\d{5,7}(?:\.[A-Z]{2,4})?)"
     results = []
@@ -47,7 +44,6 @@ def find_medical_record_number_mentions(text):
         results.append((float(start), float(end), mention.strip()))
     return results
 
-# 產生資料並保存
 def generate_medical_record_number_data(filename1, filename2, start_sid=40000, total=500):
     task1, task2 = [], []
     sid = start_sid
@@ -69,7 +65,6 @@ def generate_medical_record_number_data(filename1, filename2, start_sid=40000, t
                 task2.append(f"{sid}\tMEDICAL_RECORD_NUMBER\t{start:.1f}\t{end:.1f}\t{record_number}")
                 found = True
 
-        # fallback：直接搜
         if not found:
             match = re.search(re.escape(record_number), sentence)
             if match:
@@ -81,7 +76,6 @@ def generate_medical_record_number_data(filename1, filename2, start_sid=40000, t
         f1.write("\n".join(task1))
         f2.write("\n".join(task2))
 
-    print(f"✅ MEDICAL_RECORD_NUMBER 資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
+    print(f" MEDICAL_RECORD_NUMBER 資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
 
-# 使用
 generate_medical_record_number_data("task1_medical_record.txt", "task2_medical_record.txt")

@@ -16,13 +16,11 @@ def run():
 
     label_map = model.config.id2label
 
-    # ✳️ 語意提示詞
     SET_HINTS = [
         "every", "each", "per", "daily", "weekly", "monthly", "nightly", "morning", "evening",
         "twice", "once", "as needed", "times a day", "a couple of times", "several times", "multiple times"
     ]
 
-    # ✳️ 正規模式（完整比對 or 子句中出現）
     SET_PATTERNS = [
         r"every \d+ (hours?|days?|weeks?)",
         r"once (a|per) (day|week|month)",
@@ -35,7 +33,6 @@ def run():
         r"(as needed|prn)",
         r"(nightly|daily|weekly|monthly)"
     ]
-    # ❌ 模糊否定規則（不是 SET 的常見誤判）
     SET_NEGATIVE_HINTS = [
         "this morning", "that morning", "in the morning", "this evening", "in the evening",
         "friday morning", "tomorrow", "tonight", "yesterday", "later", "earlier",
@@ -43,12 +40,11 @@ def run():
         "at bedtime", "in the afternoon", "now", "later in the evening", "that same morning"
     ]
 
-    # ❌ 不是 SET 的常見錯詞（錯標的 phrase）
     SET_NEGATIVE_PATTERNS = [
         r"\b(today|tomorrow|yesterday|tonight|now|soon|later)\b",
         r"\b(this|that|last|next)\s+(morning|evening|week|month|night|afternoon|friday)\b",
         r"\bin the (morning|evening|night|afternoon)\b",
-        r"\b[a-z]+\s+morning\b",   # like "Friday morning"
+        r"\b[a-z]+\s+morning\b",  
         r"\b[a-z]+\s+evening\b",
         r"\b[a-z]+\s+night\b",
         r"\bat\s+like\s+\d+\s+(am|pm|in the morning|in the evening)\b",
@@ -63,14 +59,12 @@ def run():
         if len(snippet.split()) > 10:
             return False
 
-        # ❌ 檢查是否命中明確非SET片段
         if snippet in SET_NEGATIVE_HINTS:
             return False
         for pattern in SET_NEGATIVE_PATTERNS:
             if re.fullmatch(pattern, snippet) or re.search(pattern, snippet):
                 return False
 
-        # ✅ 判斷是否為SET
         if any(hint in snippet for hint in SET_HINTS):
             return True
         for pattern in SET_PATTERNS:
@@ -113,7 +107,6 @@ def run():
                 results.append(span_text)
         return results
 
-    # 主流程
     with open(input_path, encoding="utf-8") as f:
         lines = [l.strip() for l in f if l.strip()]
 
@@ -137,7 +130,7 @@ def run():
             print(line)
             f.write(line + "\n")
 
-    print(f"✅ 完成推理，結果已儲存至 {output_path}")
+    print(f"完成推理，結果已儲存至 {output_path}")
 
 if __name__ == "__main__":
     run()

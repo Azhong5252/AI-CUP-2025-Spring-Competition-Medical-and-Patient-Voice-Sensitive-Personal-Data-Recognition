@@ -10,3 +10,5 @@ huggingface-hub==0.33.0
 tqdm
 word2number
 openai
+num2words
+collections

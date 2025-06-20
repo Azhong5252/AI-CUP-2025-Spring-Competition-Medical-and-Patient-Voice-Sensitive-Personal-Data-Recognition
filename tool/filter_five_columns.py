@@ -20,7 +20,7 @@ def run():
         print(f"找不到檔案：{input_path}")
     else:
         filter_file(input_path, output_path)
-        shutil.move(output_path, input_path)  # 覆蓋原始檔案
+        shutil.move(output_path, input_path)  
         print(f"已完成過濾並更新 {input_path}")
             
 if __name__ == "__main__":

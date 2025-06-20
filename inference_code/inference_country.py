@@ -35,50 +35,39 @@ def run():
         "Zambia", "Zimbabwe"
     ]
     exclude_list = [
-        # 澳洲的州和領地
         "Australian Capital Territory", "New South Wales", "Northern Territory",
         "Queensland", "South Australia", "Tasmania", "Victoria", "Western Australia",
         "Norfolk Island", "Christmas Island", "Cocos (Keeling) Islands",
         "Heard Island and McDonald Islands", "Coral Sea Islands",
 
-        # 美國的領地和地區
         "American Samoa", "Guam", "Northern Mariana Islands", "Puerto Rico",
         "U.S. Virgin Islands", "United States Virgin Islands", "Navassa Island",
         "Midway Islands", "Wake Island", "Johnston Atoll", "Baker Island",
         "Howland Island", "Jarvis Island", "Kingman Reef", "Palmyra Atoll",
 
-        # 英國的海外領地
         "Anguilla", "Bermuda", "British Virgin Islands", "Cayman Islands",
         "Falkland Islands", "Falkland Islands (Malvinas)", "Gibraltar",
         "Montserrat", "Pitcairn Islands", "Saint Helena", "Ascension Island",
         "Tristan da Cunha", "South Georgia and the South Sandwich Islands",
         "Turks and Caicos Islands", "British Indian Ocean Territory",
 
-        # 法國的海外地區
         "French Guiana", "Guadeloupe", "Martinique", "Mayotte", "Réunion",
         "Saint Barthélemy", "Saint Martin", "Saint Pierre and Miquelon",
         "French Polynesia", "New Caledonia", "Wallis and Futuna",
         "French Southern and Antarctic Lands", "Clipperton Island",
 
-        # 荷蘭的構成國和特別市
         "Aruba", "Curaçao", "Sint Maarten", "Bonaire", "Sint Eustatius", "Saba",
 
-        # 丹麥的自治地區
         "Faroe Islands", "Greenland",
 
-        # 挪威的領地
         "Svalbard", "Jan Mayen", "Bouvet Island",
 
-        # 紐西蘭的領地和自由聯合國
         "Cook Islands", "Niue", "Tokelau", "Ross Dependency",
 
-        # 中國的特別行政區
         "Hong Kong", "Macau", "Macao",
 
-        # 英國的王室屬地
         "Isle of Man", "Jersey", "Guernsey",
 
-        # 其他非主權地區
         "Western Sahara", "Kosovo", "Palestine", "Taiwan", "Abkhazia",
         "South Ossetia", "Northern Cyprus", "Transnistria", "Nagorno-Karabakh",
         "Somaliland", "Gaza Strip", "West Bank", "Kurdistan Region",
@@ -98,7 +87,7 @@ def run():
             id_, sentence = line.split('\t', 1)
 
             if any(exclude in sentence for exclude in exclude_list):
-                continue  # 若有任一排除項目，跳過
+                continue 
 
             for country in country_list:
                 pattern = r'\b' + re.escape(country) + r'\b'
@@ -110,4 +99,4 @@ def run():
             print(out_line)
             f.write(out_line + '\n')
 
-    print(f"✅ 已完成，結果儲存於 {task2_path}")
+    print(f"已完成，結果儲存於 {task2_path}")

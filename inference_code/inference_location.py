@@ -4,7 +4,6 @@ import re
 import os
 
 def run():
-    # 設置裝置
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     VALID_ORGANIZATIONS = {
@@ -45,17 +44,14 @@ def run():
         "city center", "business district", "shopping district", "commercial area"
     }
 
-    # 模型與 tokenizer 路徑
     model_dir = "model/ner_model_location"
     tokenizer = DebertaV2TokenizerFast.from_pretrained(model_dir)
     model = DebertaV2ForTokenClassification.from_pretrained(model_dir).to(device)
     model.eval()
 
-    # 檔案路徑
     input_path = "ASR_code/text/Whisper_Validation.txt"
     output_path = "validation/inference_location_output.txt"
 
-    # 標籤映射
     ALL_SHI_TYPES = [
         "ROOM", "DEPARTMENT", "HOSPITAL", "STREET", "CITY",
         "DISTRICT", "COUNTY", "STATE",  "LOCATION-OTHER",
@@ -63,10 +59,8 @@ def run():
     LABELS = ["O"] + [f"{prefix}-{t}" for t in ALL_SHI_TYPES for prefix in ("B", "I")]
     id2label = {i: l for i, l in enumerate(LABELS)}
 
-    # 只要以下這些類別
     VALID_LABELS = {"HOSPITAL", "DEPARTMENT", "ROOM", "STREET", "CITY", "DISTRICT", "STATE", "ORGANIZATION","LOCATION-OTHER"}
 
-    # BIO 模型抽取
     def extract_by_bio(text):
         encoding = tokenizer(text, return_offsets_mapping=True, return_tensors="pt", truncation=True, max_length=512)
         offset_mapping = encoding.pop("offset_mapping")[0]
@@ -92,11 +86,10 @@ def run():
             start_char = offset_mapping[s][0]
             end_char = offset_mapping[e][1]
             span_text = text[start_char:end_char]
-            entity_label = id2label[preds[s]][2:]  # B-xxx 去掉 B-
+            entity_label = id2label[preds[s]][2:]  
             results.append((entity_label, span_text))
         return results
 
-    # 正則抽取（這版不需要，留空）
     def extract_by_regex(text):
         return []
 
@@ -114,11 +107,9 @@ def run():
 
         text_lc = t.lower()
 
-        # 檢查文字必須存在且非空
         if not t:
             return False
 
-        # 通用檢查：CITY、DISTRICT、COUNTY、STATE不可純數字
         if l in {"CITY", "DISTRICT", "COUNTY", "STATE"}:
             if t.isdigit():
                 return False
@@ -129,7 +120,7 @@ def run():
 
         if l == "DEPARTMENT":
             if t.lower() == "department":
-                return False  # 過於模糊，排除單獨詞
+                return False 
             department_keywords = [
                 "radiology", "oncology", "icu", "emergency", "surgery", "pathology",
                 "cardiology", "internal medicine", "orthopedics", "psychiatry", "neurology",
@@ -142,30 +133,23 @@ def run():
             if not any(k in text_lc for k in ["room", "floor", "suite"]):
                 return False
             if not any(char.isdigit() for char in t):
-                return False  # 房間通常帶數字
+                return False 
 
         if l == "STREET":
             if len(t.split()) < 2:
-                return False  # 避免只有單詞 like "Street"
+                return False  
             suffixes = ["street", "avenue", "road", "drive", "lane", "boulevard", "way", "place", "court", "crescent"]
             if not any(t.lower().endswith(s) for s in suffixes):
                 return False
             if t.lower() in {"the street", "my street", "this street"}:
-                return False  # 過於模糊
-
-        # if l == "STREET":
-        #     if not any(k in text_lc for k in street_keywords):
-        #         return False
-        #     # if not any(char.isdigit() for char in t):
-        #     #     return False  # 地址通常帶號碼
+                return False 
 
         if l == "CITY":
             if len(t) < 2:
                 return False
-            # 語意判斷：是不是在說市中心或模糊地名
-            text_lc_clean = re.sub(r"[^\w\s]", "", text_lc)  # 去除標點比較穩定
+            text_lc_clean = re.sub(r"[^\w\s]", "", text_lc) 
             if any(term in text_lc_clean for term in ambiguous_city_terms):
-                l = "LOCATION-OTHER"  # 自動降階處理
+                l = "LOCATION-OTHER"  
 
 
         if l == "DISTRICT":
@@ -205,7 +189,6 @@ def run():
         street_suffixes = [
             "Street", "Avenue", "Road", "Drive", "Lane", "Boulevard", "Way", "Place", "Court", "Crescent"
         ]
-        # 假設開頭出現類似住址描述語句
         patterns = [
             r"(?:lives at|resides on|lives on|moved to|address is|located at)\s+([\w\s]+(?:%s))" % suffix
             for suffix in street_suffixes
@@ -226,7 +209,6 @@ def run():
         norm_org_set = {normalize(o): o for o in VALID_ORGANIZATIONS}
         results = []
 
-        # 用 sliding window 對句子做分詞嘗試匹配組織名稱（包括多詞組織）
         words = text.split()
         max_org_len = max(len(org.split()) for org in VALID_ORGANIZATIONS)
 
@@ -236,14 +218,13 @@ def run():
                 candidate = " ".join(span)
                 norm_candidate = normalize(candidate)
                 if norm_candidate in norm_org_set:
-                    # 真實文本中的位置擷取
+
                     pattern = re.compile(re.escape(norm_org_set[norm_candidate]), re.IGNORECASE)
                     match = pattern.search(text)
                     if match:
                         results.append(("ORGANIZATION", match.group()))
         return results
 
-    # 主流程
     with open(input_path, encoding="utf-8") as f:
         lines = [l.strip() for l in f if l.strip()]
 
@@ -255,7 +236,6 @@ def run():
         except ValueError:
             continue
 
-        # 是否已有 ORGANIZATION 被 BIO 模型找到
         found_org = False
 
         for label, ent in extract_by_bio(sentence):
@@ -268,7 +248,7 @@ def run():
                 if label == "ORGANIZATION":
                     found_org = True
 
-        for label, ent in extract_by_regex(sentence):  # 目前 regex 不抽
+        for label, ent in extract_by_regex(sentence): 
             val = ent.strip()
             if val and is_valid_location(label, val):
                 key = (sid, label, val)
@@ -276,7 +256,6 @@ def run():
                     results.append(f"{sid}\t{label}\t{val}")
                     seen.add(key)
 
-        # fallback：BIO 沒找到 ORGANIZATION → 用關鍵字補抓
         if not found_org:
             for label, ent in extract_organization_by_keyword(sentence):
                 val = ent.strip()
@@ -301,14 +280,13 @@ def run():
                 if key not in seen:
                     results.append(f"{sid}\t{label}\t{val}")
                     seen.add(key)
-    # 輸出
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         for line in sorted(results):
             print(line)
             f.write(line + "\n")
 
-    print(f"✅ 完成推理，已輸出至 {output_path}")
+    print(f"完成推理，已輸出至 {output_path}")
 
 if __name__ == "__main__":
     run()

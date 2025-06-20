@@ -162,7 +162,7 @@ def run():
                 print(res)
                 f.write(res + "\n")
 
-        print(f"✅ 推理完成，結果儲存到 {output_file}")
+        print(f"推理完成，結果儲存到 {output_file}")
 
     run_inference("ASR_code/text/Whisper_Validation.txt", "validation/inference_time_output.txt")
 

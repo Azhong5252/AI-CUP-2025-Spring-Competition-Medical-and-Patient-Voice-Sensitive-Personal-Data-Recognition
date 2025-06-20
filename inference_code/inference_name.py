@@ -13,16 +13,13 @@ def run():
     label2id = {label: i for i, label in enumerate(LABELS)}
     id2label = {i: label for label, i in label2id.items()}
 
-    # 設定 device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    # 載入模型與 tokenizer
     tokenizer = DebertaV2TokenizerFast.from_pretrained(TOKENIZER_DIR)
     model = DebertaV2ForTokenClassification.from_pretrained(MODEL_DIR)
     model.to(device)
     model.eval()
 
-    # 載入驗證資料
     data = []
     with open(INPUT_FILE, encoding="utf-8") as f:
         for line in f:
@@ -31,10 +28,8 @@ def run():
             sid, text = line.strip().split("\t", 1)
             data.append({"sid": sid, "text": text})
 
-    # 預先建立輸出資料夾
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
-    # 立即寫入推理結果
     with open(OUTPUT_FILE, "w", encoding="utf-8") as out_f:
         for item in data:
             sid = item["sid"]
@@ -89,7 +84,7 @@ def run():
                 out_f.write(f"{sid}\t{label}\t{span_text}\n")
                 print(f"{sid}\t{label}\t{span_text}")
 
-    print(f"✅ 推理完成，結果已儲存至 {OUTPUT_FILE}")
+    print(f"推理完成，結果已儲存至 {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     run()

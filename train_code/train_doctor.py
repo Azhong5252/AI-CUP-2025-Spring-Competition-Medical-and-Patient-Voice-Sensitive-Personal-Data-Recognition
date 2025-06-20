@@ -1,5 +1,3 @@
-# ✅ 完整版：改良後的訓練腳本 with BIO 檢查、Offset 對齊、類別加權
-
 import os
 import json
 import re

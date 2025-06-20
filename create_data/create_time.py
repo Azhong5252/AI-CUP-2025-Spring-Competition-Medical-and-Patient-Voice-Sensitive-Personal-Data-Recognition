@@ -1,7 +1,6 @@
 import random
 import re
 
-# 多句式 + 時間自然融合的模板（含上下文與因果）
 time_templates_rich = [
     "She woke up feeling unwell and by {}, she had already taken her meds and gone back to sleep.",
     "The team gathered in the conference room at {}, after which they proceeded with the quarterly report.",
@@ -42,7 +41,6 @@ time_templates_rich = [
 ]
 
 
-# 更多自然時間片語
 time_phrases = [
     "this morning", "this evening", "tonight", "last night", "yesterday morning",
     "tomorrow afternoon", "Tuesday morning", "Wednesday night", "Friday evening",
@@ -54,7 +52,6 @@ time_phrases = [
     "just after six o'clock", "a little past nine"
 ]
 
-# 時間辨識規則
 def find_time_mentions(text):
     patterns = [
         r"\b\d{1,2}(:\d{2})?\s*(AM|PM|am|pm)?",
@@ -63,7 +60,6 @@ def find_time_mentions(text):
         r"\b(lunchtime|bedtime|noon|midnight|dawn|dusk)",
         r"\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+(morning|night|afternoon|evening)",
         r"\b(?:around|by|about|after|before|just before)\s+\d{1,2}(?:-\w+|(?:\s*ish))?(?:\s+(this|last|next|yesterday|tomorrow))?\s*(morning|afternoon|evening|night)?",
-        # ✅ 新增：口語式時間（five o'clock, quarter to six）   
         r"\b(?:five|six|seven|eight|nine|ten|eleven|twelve|one|two|three|four)\s+o'clock\b",
         r"\b(?:quarter|half|ten|twenty|five)\s+(?:past|to)\s+(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\b",
     ]
@@ -73,7 +69,6 @@ def find_time_mentions(text):
             results.append((float(m.start()), float(m.end()), m.group().strip()))
     return results
 
-# 主資料生成函式
 def generate_time_data(filename1, filename2, start_sid=24000, total=200):
     task1, task2 = [], []
     sid = start_sid
@@ -115,7 +110,6 @@ def generate_time_data(filename1, filename2, start_sid=24000, total=200):
         f1.write("\n".join(task1))
         f2.write("\n".join(task2))
 
-    print(f"✅ 已產生 {len(task1)} 筆 TIME 樣本與 {len(task2)} 筆標註")
+    print(f"已產生 {len(task1)} 筆 TIME 樣本與 {len(task2)} 筆標註")
 
-# ✅ 執行
 generate_time_data("task1_time.txt", "task2_time.txt", start_sid=60000, total=200)

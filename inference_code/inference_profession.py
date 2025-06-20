@@ -5,17 +5,14 @@ import re
 def run():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    # 載入模型與 tokenizer
     model_path = "model/ner_model_profession"
     tokenizer = DebertaV2TokenizerFast.from_pretrained(model_path)
     model = DebertaV2ForTokenClassification.from_pretrained(model_path).to(device)
     model.eval()
 
-    # Label 對照表
     id2label = model.config.id2label
 
     ALLOWED_PROFESSIONS = {
-        # 一般職業
         "carpenter", "teacher", "lawyer", "engineer", "chef", "artist", "mechanic",
         "electrician", "plumber", "driver", "accountant", "scientist", "musician",
         "actor", "pilot", "architect", "dancer", "programmer", "designer", "barista",
@@ -28,7 +25,6 @@ def run():
         "welder", "truck driver", "delivery driver", "software engineer",
         "web developer", "data scientist", "system administrator", "animator", "entrepreneur","Archbishop","selling pottery","potter","trick cyclist",""
 
-        # 大學主修科目（也視為職業）
         "computer science", "mechanical engineering", "electrical engineering",
         "civil engineering", "biotechnology", "data science", "chemistry",
         "physics", "mathematics", "statistics", "psychology", "sociology",
@@ -111,7 +107,6 @@ def run():
         if current_entity:
             entities.append((current_entity, current_type))
 
-        # 過濾醫療職業 & 非清單職業
         filtered_entities = []
         for entity, ent_type in entities:
             if ent_type == "PROFESSION":
@@ -119,7 +114,6 @@ def run():
                     continue
             filtered_entities.append((entity, ent_type))
 
-        # 增加學科背景上下文職業
         filtered_entities = augment_with_academic_context(text, filtered_entities)
 
         return filtered_entities
@@ -145,6 +139,6 @@ def run():
     input_path = "ASR_code/text/Whisper_Validation.txt"
     output_path = "validation/inference_profession_output.txt"
     process_validation_file(input_path,output_path)
-    print(f"✅ 推理完成，結果儲存到 {output_path}")
+    print(f"推理完成，結果儲存到 {output_path}")
 if __name__ == "__main__":
     run()

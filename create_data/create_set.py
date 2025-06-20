@@ -1,7 +1,6 @@
 import random
 import re
 
-# SET 相關樣板句
 set_templates = [
     "The medication was prescribed to be taken {}.",
     "Patient is instructed to do physiotherapy {}.",
@@ -23,8 +22,7 @@ set_templates = [
     "I go for acupuncture therapy {}.",
     "Instructions say to take the drops {}.",
     "The treatment is administered {} based on progress.",
-    
-    # 擴充樣板
+   
     "He performs breathing exercises {} as part of his routine.",
     "The pills must be taken {} regardless of food intake.",
     "Measurements of oxygen saturation are done {}.",
@@ -47,7 +45,6 @@ set_templates = [
 ]
 
 
-# SET 表達詞彙列表
 set_phrases = [
     "daily", "once daily", "twice daily", "three times daily",
     "once a day", "twice a day", "three times a day",
@@ -91,7 +88,7 @@ def generate_set_data(filename1, filename2, start_sid=40000, total=500):
                 found = True
 
         if not found:
-            print(f"❗無法標註句子: {sentence}")
+            print(f"無法標註句子: {sentence}")
 
         sid += 1
 
@@ -99,7 +96,7 @@ def generate_set_data(filename1, filename2, start_sid=40000, total=500):
         f1.write("\n".join(task1))
         f2.write("\n".join(task2))
 
-    print(f"✅ SET 類型資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
+    print(f"SET 類型資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
 
 # 執行
 generate_set_data("task1_set.txt", "task2_set.txt")

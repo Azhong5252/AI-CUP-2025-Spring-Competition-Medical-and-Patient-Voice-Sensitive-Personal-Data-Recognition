@@ -14,7 +14,6 @@ def run():
     output_path = "validation/inference_duration_output.txt"
     label_map = model.config.id2label
 
-    # 重新設計過的正則規則
     DURATION_REGEXES = [
         r"\b\d+(\.\d+)?\s+(seconds?|minutes?|hours?|days?|weeks?|months?|years?|sessions?)\b",
         r"\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)\s+(seconds?|minutes?|hours?|days?|weeks?|months?|years?)\b",
@@ -151,7 +150,7 @@ def run():
             print(line)
             f.write(line + "\n")
 
-    print(f"✅ 完成推理，已輸出至 {output_path}")
+    print(f"完成推理，已輸出至 {output_path}")
 
 if __name__ == "__main__":
     run()

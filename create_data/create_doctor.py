@@ -2,7 +2,6 @@ import random
 import re
 from collections import defaultdict
 
-# 自然 + 正式 + 口語 混合句型 (Doctor專用)
 doctor_templates_mixed = [
     "Dr. {} will be overseeing the patient's recovery process.",
     "The surgery was performed successfully by Dr. {}.",
@@ -47,7 +46,6 @@ doctor_templates_mixed = [
     "Dr. {} is a renowned expert in pediatric cardiology."
 ]
 
-# Doctor名字資料
 doctor_names = [
     "John Smith", "Emily Johnson", "Michael Williams", "Sarah Brown", "David Jones",
     "Laura Garcia", "James Miller", "Olivia Davis", "Daniel Martinez", "Sophia Rodriguez",
@@ -56,7 +54,6 @@ doctor_names = [
     "Andrew Jackson", "Isabella Martin"
 ]
 
-# 找到 Dr.名字 的位置
 def find_doctor_mentions(text):
     pattern = r"Dr\.\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*"  # Ex: Dr. John Smith
     results = []
@@ -65,7 +62,6 @@ def find_doctor_mentions(text):
         results.append((float(m.start()), float(m.end()), mention.strip()))
     return results
 
-# 生成 DOCTOR 資料
 def generate_doctor_data(filename1, filename2, start_sid=70000, total=500):
     task1, task2 = [], []
     sid = start_sid
@@ -75,32 +71,29 @@ def generate_doctor_data(filename1, filename2, start_sid=70000, total=500):
         name = random.choice(doctor_names)
         sentence = random.choice(doctor_templates_mixed).format(name)
 
-        # 避免重複句子
+
         if sentence in used_sentences:
             continue
         used_sentences.add(sentence)
 
         task1.append(f"{sid}\t{sentence}")
         found = False
-        # 這裡只檢查一次 Dr.名字位置
+
         for start, end, phrase in find_doctor_mentions(sentence):
             if name in phrase:
                 task2.append(f"{sid}\tDOCTOR\t{start:.1f}\t{end:.1f}\t{phrase}")
                 found = True
 
-        # 如果沒有找到Dr.名字，則打印警告
         if not found:
             print(f"⚠️ Warning: 未標註到 Dr.名字 in句子: {sentence}")
 
         sid += 1
 
-    # 寫入文件
     with open(filename1, "w", encoding="utf-8") as f1, open(filename2, "w", encoding="utf-8") as f2:
         f1.write("\n".join(task1))
         f2.write("\n".join(task2))
 
-    print(f"✅ DOCTOR 資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
+    print(f" DOCTOR 資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
 
-# 使用範例
 if __name__ == "__main__":
     generate_doctor_data("task1_doctor.txt", "task2_doctor.txt")

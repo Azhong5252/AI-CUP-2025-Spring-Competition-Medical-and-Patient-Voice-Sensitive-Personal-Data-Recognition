@@ -1,7 +1,6 @@
 import random
 from collections import defaultdict
 
-# Example of the updated shi_type_examples with full month representation
 shi_type_examples = {
     "DATE": [
         "now", "tomorrow", "today", "this week", "Last week", 
@@ -82,7 +81,6 @@ def generate_date_data(filename1, filename2, start_sid=10000, total=200):
         f1.write("\n".join(task1))
         f2.write("\n".join(task2))
 
-    print(f"✅ DATE 資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
+    print(f"DATE 資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
 
-# 使用方法
 generate_date_data("task1_date.txt", "task2_date.txt")

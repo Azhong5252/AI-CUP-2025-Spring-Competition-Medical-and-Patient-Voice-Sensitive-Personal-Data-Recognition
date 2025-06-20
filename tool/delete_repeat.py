@@ -2,7 +2,6 @@ def run():
     input_file = "validation/inference_output.txt"
     output_file = "validation/inference_output.txt"
 
-    # 使用 set 去除重複行
     seen = set()
     deduped_lines = []
 
@@ -12,8 +11,7 @@ def run():
                 seen.add(line)
                 deduped_lines.append(line)
 
-    # 寫入去重後的結果
     with open(output_file, "w", encoding="utf-8") as outfile:
         outfile.writelines(deduped_lines)
 
-    print(f"✅ 去除重複完成，結果儲存於 {output_file}")
+    print(f"去除重複完成，結果儲存於 {output_file}")

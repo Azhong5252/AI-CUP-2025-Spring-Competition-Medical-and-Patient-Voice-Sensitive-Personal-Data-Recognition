@@ -1,7 +1,7 @@
 import random
 import re
 from collections import defaultdict
-from num2words import num2words  # 安裝：pip install num2words
+from num2words import num2words
 
 age_templates_mixed = [
     "The {}-year-old patient presented with symptoms consistent with pneumonia.",
@@ -58,7 +58,6 @@ def generate_age_data(filename1, filename2, start_sid=30000, total=500):
     while len(task1) < total:
         age = random.randint(2, 99)
 
-        # 30% 機率用英文數字
         if random.random() < 0.3:
             age_text = number_to_words(age)
         else:
@@ -78,7 +77,6 @@ def generate_age_data(filename1, filename2, start_sid=30000, total=500):
                 task2.append(f"{sid}\tAGE\t{start:.1f}\t{end:.1f}\t{age}")
                 found = True
 
-        # fallback：直接搜數字位置
         if not found:
             match = re.search(rf"\b{age}\b", sentence)
             if match:
@@ -90,7 +88,6 @@ def generate_age_data(filename1, filename2, start_sid=30000, total=500):
         f1.write("\n".join(task1))
         f2.write("\n".join(task2))
 
-    print(f"✅ 混合語氣 AGE 資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
+    print(f"混合語氣 AGE 資料已產生，共 {len(task1)} 筆句子與 {len(task2)} 筆標註")
 
-# 使用
 generate_age_data("task1_age.txt", "task2_age.txt")

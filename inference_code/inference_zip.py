@@ -4,20 +4,16 @@ import re
 import os
 
 def run():
-    # 裝置設置
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    # 模型與 tokenizer 路徑
     model_dir = "model/ner_model_zip"
     tokenizer = DebertaV2TokenizerFast.from_pretrained(model_dir)
     model = DebertaV2ForTokenClassification.from_pretrained(model_dir).to(device)
     model.eval()
 
-    # 檔案路徑
     input_path = "ASR_code/text/Whisper_Validation.txt"
     output_path = "validation/inference_zip_output.txt"
 
-    # 標籤 mapping
     label_map = model.config.id2label
 
     ZIP_HINTS = ["zip code", "postal code", "postal", "zip", "postcode"]
@@ -26,15 +22,12 @@ def run():
         ctx = context.lower()
         text = text.strip()
 
-        # 排除不是四位數的
         if not re.fullmatch(r"\d{4}", text):
             return False
 
-        # 必須在句中出現
         if text not in context:
             return False
 
-        # 附近是否出現提示語
         index = ctx.find(text)
         window_size = 20
         snippet = ctx[max(0, index - window_size): index + window_size] if index != -1 else ctx
@@ -86,7 +79,6 @@ def run():
                     results.append(m.group())
         return results
 
-    # 主流程
     with open(input_path, encoding="utf-8") as f:
         lines = [l.strip() for l in f if l.strip()]
 
@@ -113,12 +105,11 @@ def run():
                 if key not in seen:
                     results.append(f"{sid}\tZIP\t{val}")
                     seen.add(key)
-
-    # 輸出
+                    
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         for line in sorted(results):
             print(line)
             f.write(line + "\n")
 
-    print(f"✅ 完成推理，已輸出至 {output_path}")
+    print(f"完成推理，已輸出至 {output_path}")

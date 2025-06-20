@@ -1,10 +1,8 @@
 def run():
-    #初始化inference_output.txt
     content = ""
     with open("validation/inference_output.txt","w",encoding="utf-8") as f:
         f.write(content)
 
-    #取得所有SHI TYPE預測結果
     with open("validation/inference_age_output.txt","r",encoding="utf-8") as f:
         age_output = f.read()
     with open("validation/inference_date_output.txt","r",encoding="utf-8") as f:
@@ -31,7 +29,7 @@ def run():
         set_output = f.read()
     with open("validation/inference_name_output.txt","r",encoding="utf-8") as f:
         name_output = f.read()
-    #寫入所有SHI TYPE預測結果
+
     with open("validation/inference_output.txt","a",encoding="utf-8") as f:
         f.write(age_output)
         f.write(date_output)
@@ -47,8 +45,6 @@ def run():
         f.write(set_output)
         f.write(name_output)
 
-
-    #刪除所有SHI TYPE預測結果
     with open("validation/inference_age_output.txt","w",encoding="utf-8") as f:
         f.write(content)
     with open("validation/inference_date_output.txt","w",encoding="utf-8") as f:
@@ -77,5 +73,6 @@ def run():
         f.write(content)
     with open("validation/inference_output_filtered.txt","w",encoding="utf-8") as f:
         f.write(content)
+        
 if __name__ == "__main__":
     run()

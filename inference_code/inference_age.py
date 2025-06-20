@@ -8,7 +8,6 @@ def run():
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    # model_dir = "model/ner_model_age"
     model_dir = "model/ner_model_age"
     tokenizer = DebertaV2TokenizerFast.from_pretrained(model_dir)
     model = DebertaV2ForTokenClassification.from_pretrained(model_dir).to(device)
@@ -265,22 +264,6 @@ def run():
                 print(f"{sid}\tAGE\t{age_num_text}")
                 fout.write(f"{sid}\tAGE\t{age_num_text}\n")
     print(f"完成推理，已輸出至 {output_path}")
-
-
-    # def infer_age_from_sentence(text, model, tokenizer, label_map, device):
-    #     candidates = extract_by_bio(text) + extract_by_regex(text)
-    #     unique_candidates = list(set(candidates))
-    #     filtered = [c for c in unique_candidates if is_valid_age(c, text)]
-    #     normalized = [normalize_age_phrase(f) for f in filtered]
-    #     final = sorted(set(n for n in normalized if n))
-    #     return final
-    # while True:
-    #     sentence = input("請輸入一句句子（輸入 q 離開）: ")
-    #     if sentence.lower() == 'q':
-    #         break
-    #     # 執行推論，例如：
-    #     result = infer_age_from_sentence(sentence, model, tokenizer, label_map, device)
-    #     print("AGE 實體結果：", result)
 
 if __name__ == "__main__":
     run()

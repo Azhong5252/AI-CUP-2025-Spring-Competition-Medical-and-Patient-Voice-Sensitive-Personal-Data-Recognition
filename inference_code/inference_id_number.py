@@ -4,19 +4,15 @@ from transformers import DebertaV2TokenizerFast, DebertaV2ForTokenClassification
 import re
 
 def run():
-    # 設定裝置
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"🖥️ 使用裝置: {device}")
 
-    # 載入模型和 tokenizer
     model_dir = "model/ner_model_id_number"
     tokenizer = DebertaV2TokenizerFast.from_pretrained(model_dir)
     model = DebertaV2ForTokenClassification.from_pretrained(model_dir).to(device)
 
-    # 標籤映射
     id2label = model.config.id2label
 
-    # 格式驗證函數（保守過濾）
     def is_valid_id_number(val):
         if re.match(r'^[A-Za-z0-9\-\.]+$', val):
             if re.search(r'[A-Za-z]', val) and re.search(r'\d', val):
@@ -34,15 +30,13 @@ def run():
         for label, value_group in matches:
             values = [v.strip().strip(".") for v in value_group.split(",")]
             for val in values:
-                # 必須同時含有數字與英文字母，或是純數字且非年份
-                if re.search(r'\d', val) and re.search(r'[A-Za-z]', val):  # 含數字與英文字
+                if re.search(r'\d', val) and re.search(r'[A-Za-z]', val):  
                     numbers.append(val)
                 elif val.isdigit() and len(val) >= 6 and not (len(val) == 4 and 1900 <= int(val) <= 2100):
                     numbers.append(val)
         return numbers
 
 
-    # 預測實體
     def predict_entities(text):
         if not any(kw in text.lower() for kw in ["id number", "lab number", "episode number"]):
             return []
@@ -85,13 +79,11 @@ def run():
         if current_entity:
             entities.append(current_entity)
 
-        # 模型預測過濾：只保留格式合法的 ID
         filtered_entities = []
         for ent in entities:
             if ent["type"] == "ID_NUMBER" and is_valid_id_number(ent["text"]):
                 filtered_entities.append(ent)
 
-        # 若模型沒偵測，則使用規則補充（不做格式驗證）
         if not filtered_entities:
             extract_numbers = extract_id_number(text)
             for number in extract_numbers:
@@ -99,7 +91,6 @@ def run():
 
         return filtered_entities
 
-    # 跑整批輸入
     def run_inference(input_file, output_file):
         with open(input_file, encoding="utf-8") as f:
             lines = [line.strip() for line in f if line.strip()]
@@ -120,7 +111,6 @@ def run():
                 print(res)
                 f.write(res + "\n")
 
-        print(f"✅ 推理完成，結果儲存到 {output_file}")
+        print(f"推理完成，結果儲存到 {output_file}")
 
-    # 執行
     run_inference("ASR_code/text/Whisper_Validation.txt", "validation/inference_id_number_output.txt")
