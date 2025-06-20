@@ -1,4 +1,4 @@
-# AI CUP 2025 春季賽 醫病語音敏感個人資料辨識競賽賽
+# AI CUP 2025 春季賽 醫病語音敏感個人資料辨識競賽
 
 ## 環境準備
 
@@ -51,7 +51,7 @@ pip install tokenizers==0.21.1
 
 ### 方法一：OpenAI Whisper
 
-請確認當前路徑為：
+請確認當前路徑為以下範例，但最後的資料夾必須為Train_sigle_model_deberta：
 
 ```
 C:\Users\user\Desktop\AI CUP資源\Train_sigle_model_deberta>
@@ -72,7 +72,7 @@ python .\ASR_code\Whisper_Validation.py
 
 ### 方法二：Faster Whisper
 
-請確認當前路徑為：
+請確認當前路徑為以下範例，但最後的資料夾必須為Train_sigle_model_deberta：
 
 ```
 C:\Users\user\Desktop\AI CUP資源\Train_sigle_model_deberta>
@@ -97,7 +97,7 @@ python .\ASR_code\Whisper.py
 
 ### 方法一：使用 OpenAI API 呼叫
 
-確認當前路徑為：
+確認當前路徑為以下範例，但最後的資料夾必須為Train_sigle_model_deberta：
 
 ```
 C:\Users\user\Desktop\AI CUP資源\Train_sigle_model_deberta>
@@ -119,7 +119,7 @@ validation/GPT.txt
 
 ### 方法二：使用 DeBERTa-v3-base 模型進行 Fine-tuning
 
-確認當前路徑為：
+確認當前路徑為以下範例，但最後的資料夾必須為Train_sigle_model_deberta：
 
 ```
 C:\Users\user\Desktop\AI CUP資源\Train_sigle_model_deberta>
