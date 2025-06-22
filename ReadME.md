@@ -35,10 +35,10 @@ pip list
 - `huggingface-hub`: **0.33.0**
 - `tokenizers`: **0.21.1**
 
-若出現紅字可以無視，只需確認套件有安裝完成Successful
 
 若版本不符，請使用以下方式重新安裝：
 
+若出現紅字可以無視，只需確認套件有安裝完成Successful
 ```bash
 pip install --upgrade huggingface-hub
 pip install tokenizers==0.21.1
